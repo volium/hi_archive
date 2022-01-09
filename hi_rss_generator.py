@@ -26,7 +26,10 @@ def get_episodes(start=1, end=None):
     base_url = f"https://www.hellointernet.fm"
     episode_url = f"https://www.hellointernet.fm/podcast/{episode_index}"
 
-    while episode_index <= end if end else episode_url != None and episode_url != None:
+    while (
+        episode_index <= end if end else episode_url != None
+    ) and episode_url != None:
+
         episode_page = requests.get(episode_url, headers={"User-agent": "your bot 0.1"})
 
         if episode_page.status_code != 200:
