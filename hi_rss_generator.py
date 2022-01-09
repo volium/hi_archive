@@ -41,7 +41,7 @@ def get_episodes(start=1, end=None):
             )
 
         soup = BeautifulSoup(episode_page.content, "html.parser")
-        episode_title = soup.find("meta", itemprop="headline")["content"]
+        episode_title = soup.find("h1", class_="entry-title").text
 
         episode_info = EpisodeInfo(episode_index, episode_title, episode_url)
         episode_queue.put(episode_info)
