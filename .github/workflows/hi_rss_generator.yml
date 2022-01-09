@@ -23,7 +23,7 @@ on:
           required: false
       last_episode_index:
           default: 100000000
-          description: "Index of last episode to process (needs to map to valid episode url)"
+          description: "Index of last episode to process"
           type: number
           required: false
 
