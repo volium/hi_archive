@@ -1,2 +1,2 @@
 # hi_archive
-Builds the RSS Feed of the "Hello Internet" (HI) podcast from the website.
+Builds the RSS Feed of the "Hello Internet" (http://hellointernet.fm/) podcast from the website.
