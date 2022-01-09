@@ -80,7 +80,6 @@ def generate_episode(episode_info):
         )
 
     soup = BeautifulSoup(episode_page.content, "html.parser")
-    episode_title = soup.find("meta", itemprop="headline")["content"]
     episode_author = soup.find("meta", itemprop="author")["content"]
     episode_link = soup.find("meta", itemprop="url")["content"]
     episode_datePublished = soup.find("meta", itemprop="datePublished")["content"]
@@ -111,7 +110,7 @@ def generate_episode(episode_info):
 
     # Now create the actual podgen episode object and populate the fields
     episode = Episode()
-    episode.title = episode_title
+    episode.title = episode_info.title
     episode.authors = [Person(f"{episode_author}")]
     episode.link = episode_link
     episode.summary = episode_content
