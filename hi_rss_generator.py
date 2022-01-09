@@ -1,3 +1,4 @@
+import click
 import collections
 import concurrent.futures
 import queue
@@ -120,8 +121,6 @@ def generate_episode(episode_info):
     return episode
 
 
-start = time.time()
-
 # Create the Podcast object
 podcast = Podcast(
     name="Hello Internet (archive)",
@@ -135,89 +134,138 @@ podcast = Podcast(
     explicit=False,
 )
 
-# TODO: Use argparse instead
-# Parameters used to execute the script
-MAX_WORKERS = 20
-FIRST_EPISODE_INDEX = 1
-LAST_EPISODE_INDEX = None
-RSS_FILE_NAME = "rss.xml"
 
-processed_episodes = []
-failed_episodes = []
+@click.command()
+@click.option(
+    "-o",
+    "--out",
+    "rss_file",
+    type=str,
+    default="rss.xml",
+    required=False,
+)
+@click.option(
+    "-m",
+    "--max_workers",
+    "max_workers",
+    type=int,
+    default=20,
+    required=False,
+    help="number of worker threads to use (20 by default)",
+)
+@click.option(
+    "-f",
+    "--first",
+    "first_episode_index",
+    type=int,
+    default=1,
+    required=False,
+    help="index of first episode to parse (needs to resolve to valid url)",
+)
+@click.option(
+    "-l",
+    "--last",
+    "last_episode_index",
+    type=int,
+    default=None,
+    required=False,
+    help="index of last episode to parse",
+)
+def main(rss_file, max_workers, first_episode_index, last_episode_index):
+    """
+    Main function
+    """
 
+    print(f"Using the following arguments: ")
+    print(f"\trss_file = {rss_file}")
+    print(f"\tmax_workers = {max_workers}")
+    print(f"\tfirst_episode_index = {first_episode_index}")
+    print(f"\tlast_episode_index = {last_episode_index}")
+    processed_episodes = []
+    failed_episodes = []
 
-# We can use a "with" statement to ensure threads are cleaned up promptly
-with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+    # Grab the start time snapshot
+    start = time.time()
 
-    # Start the producer thread which sends work in through the queue
-    future_to_episode = {
-        executor.submit(
-            get_episodes, FIRST_EPISODE_INDEX, LAST_EPISODE_INDEX
-        ): "PRODUCER"
-    }
+    # We can use a "with" statement to ensure threads are cleaned up promptly
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
 
-    while future_to_episode:
-        # check for status of the futures which are currently working
-        done, not_done = concurrent.futures.wait(
-            future_to_episode, timeout=1, return_when=concurrent.futures.FIRST_COMPLETED
+        # Start the producer thread which sends work in through the queue
+        future_to_episode = {
+            executor.submit(
+                get_episodes, first_episode_index, last_episode_index
+            ): "PRODUCER"
+        }
+
+        while future_to_episode:
+            # check for status of the futures which are currently working
+            done, not_done = concurrent.futures.wait(
+                future_to_episode,
+                timeout=1,
+                return_when=concurrent.futures.FIRST_COMPLETED,
+            )
+
+            # If there is incoming work, start a new future
+            while not episode_queue.empty():
+
+                # Grab an episode_info object from the queue
+                episode_info = episode_queue.get()
+
+                # Create a new future with the episode_info object
+                future_to_episode[
+                    executor.submit(generate_episode, episode_info)
+                ] = episode_info
+
+            # Process any completed futures
+            for future in done:
+                episode_info = future_to_episode[future]
+                try:
+                    episode_object = future.result()
+                except Exception as e:
+                    print(f"Episode {episode_info.index} generated an exception: {e}")
+                    failed_episodes.append(episode_info)
+                else:
+                    if isinstance(episode_object, Episode):
+                        print(f'Finished processing episode "{episode_object.title}"')
+                        processed_episodes.append((episode_info, episode_object))
+
+                # Remove the now completed future
+                future_to_episode.pop(future)
+
+    # Since the episodes may have been processed out of order, sort them using the
+    # episode index; the lambda allows us to do it in one shot.
+    processed_episodes.sort(key=lambda episode: episode[0].index)
+
+    # Add the episodes to the podcast object, iterate in reverse to add latest
+    # episodes at the top of the feed.
+    for episode in reversed(processed_episodes):
+        podcast.episodes.append(episode[1])
+
+    # Generate the actuall rss feed file
+    podcast.rss_file(rss_file, minimize=False)
+
+    # Grab the end time snapshot
+    end = time.time()
+
+    # Log the results
+    print(f"Generated RSS feed ({rss_file}) in {(end - start):.2f} seconds")
+
+    print(
+        f"{len(processed_episodes)} episodes were succesfully processed: \n"
+        + "\n".join(
+            "\tEpisode {index}: {title}".format(**episode[0]._asdict())
+            for episode in processed_episodes
         )
+    ) if len(processed_episodes) > 0 else None
 
-        # If there is incoming work, start a new future
-        while not episode_queue.empty():
+    print(
+        f"{len(failed_episodes)} episodes failed to be processed: \n"
+        + "\n".join(
+            "\tEpisode {index}: {title}".format(**episode._asdict())
+            for episode in failed_episodes
+        )
+    ) if len(failed_episodes) > 0 else None
 
-            # Grab an episode_info object from the queue
-            episode_info = episode_queue.get()
 
-            # Create a new future with the episode_info object
-            future_to_episode[
-                executor.submit(generate_episode, episode_info)
-            ] = episode_info
-
-        # Process any completed futures
-        for future in done:
-            episode_info = future_to_episode[future]
-            try:
-                episode_object = future.result()
-            except Exception as e:
-                print(f"Episode {episode_info.index} generated an exception: {e}")
-                failed_episodes.append(episode_info)
-            else:
-                if isinstance(episode_object, Episode):
-                    print(f'Finished processing episode "{episode_object.title}"')
-                    processed_episodes.append((episode_info, episode_object))
-
-            # Remove the now completed future
-            future_to_episode.pop(future)
-
-# Since the episodes may have been processed out of order, sort them using the
-# episode index; the lambda allows us to do it in one shot.
-processed_episodes.sort(key=lambda episode: episode[0].index)
-
-# Add the episodes to the podcast object, iterate in reverse to add latest
-# episodes at the top of the feed.
-for episode in reversed(processed_episodes):
-    podcast.episodes.append(episode[1])
-
-# Generate the actuall rss feed file
-podcast.rss_file(RSS_FILE_NAME, minimize=False)
-
-end = time.time()
-
-print(f"Generated RSS feed ({RSS_FILE_NAME}) in {(end - start):.2f} seconds")
-
-# Log the results
-print(
-    f"{len(processed_episodes)} episodes were succesfully processed: \n"
-    + "\n".join(
-        "\tEpisode {index}: {title}".format(**episode[0]._asdict())
-        for episode in processed_episodes
-    )
-) if len(processed_episodes) > 0 else None
-
-print(
-    f"{len(failed_episodes)} episodes failed to be processed: \n"
-    + "\n".join(
-        "\tEpisode {index}: {title}".format(**episode._asdict())
-        for episode in failed_episodes
-    )
-) if len(failed_episodes) > 0 else None
+if __name__ == "__main__":
+    main()
