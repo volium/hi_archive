@@ -1,0 +1,4 @@
+click
+podgen
+beautifulsoup4
+requests
