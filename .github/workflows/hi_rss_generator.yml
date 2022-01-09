@@ -43,4 +43,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run hi_rss_generator.py
-      run: python3 "hi_rss_generator.py -o ${{github.event.inputs.out}} -m ${{github.event.inputs.max_workers}} -f ${{github.event.inputs.first_episode_index}} -l ${{github.event.inputs.last_episode_index}}"
+      run: python3 hi_rss_generator.py -o ${{github.event.inputs.out}} -m ${{github.event.inputs.max_workers}} -f ${{github.event.inputs.first_episode_index}} -l ${{github.event.inputs.last_episode_index}}
