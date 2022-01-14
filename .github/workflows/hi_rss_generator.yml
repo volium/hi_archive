@@ -43,8 +43,8 @@ jobs:
           DEFAULT_FIRST_EPISODE_INDEX: 1
           DEFAULT_LAST_EPISODE_INDEX: 100000000
         run: |
-          echo "OUTPUT_FILE = ${{ github.event.inputs.output_file}} || env.DEFAULT_OUTPUT_FILE }}" >> $GITHUB_ENV
-          echo "MAX_WORKERS = ${{ github.event.inputs.max_workers}} || env.DEFAULT_MAX_WORKERS }}" >> $GITHUB_ENV
+          echo "OUTPUT_FILE = ${{ github.event.inputs.output_file || env.DEFAULT_OUTPUT_FILE }}" >> $GITHUB_ENV
+          echo "MAX_WORKERS = ${{ github.event.inputs.max_workers || env.DEFAULT_MAX_WORKERS }}" >> $GITHUB_ENV
           echo "FIRST_EPISODE_INDEX = ${{ github.event.inputs.first_episode_index || env.DEFAULT_FIRST_EPISODE_INDEX }}" >> $GITHUB_ENV
           echo "LAST_EPISODE_INDEX = ${{ github.event.inputs.last_episode_index || env.DEFAULT_LAST_EPISODE_INDEX }}" >> $GITHUB_ENV
       - uses: actions/checkout@v2
