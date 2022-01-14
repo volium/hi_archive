@@ -224,8 +224,15 @@ def main(rss_file, max_workers, first_episode_index, last_episode_index):
                 try:
                     episode_object = future.result()
                 except Exception as e:
-                    print(f"Episode {episode_info.index} generated an exception: {e}")
-                    failed_episodes.append(episode_info)
+                    if isinstance(episode_info, EpisodeInfo):
+                        print(
+                            f"Episode {episode_info.index} generated an exception: {e}"
+                        )
+                        failed_episodes.append((episode_info, e))
+                    elif isinstance(episode_info, str):
+                        print(f"Producer thread generated an exception: {e}")
+                    else:
+                        print(f"Unexpected exception: {e}")
                 else:
                     if isinstance(episode_object, Episode):
                         print(f'Finished processing episode "{episode_object.title}"')
@@ -263,7 +270,7 @@ def main(rss_file, max_workers, first_episode_index, last_episode_index):
     print(
         f"{len(failed_episodes)} episodes failed to be processed: \n"
         + "\n".join(
-            "\tEpisode {index}: {title}".format(**episode._asdict())
+            "\tEpisode {index}: {title}".format(**episode[0]._asdict())
             for episode in failed_episodes
         )
     ) if len(failed_episodes) > 0 else None
