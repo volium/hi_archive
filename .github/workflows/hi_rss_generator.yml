@@ -3,6 +3,9 @@ name: Run hi_rss_generator.py
 
 # Controls when the action will run
 on:
+  schedule:
+    # Run every 15 minutes
+    - cron: '00/15 * * * *'
   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
