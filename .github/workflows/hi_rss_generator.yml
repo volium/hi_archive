@@ -67,3 +67,4 @@ jobs:
         with:
           name: rss-feed
           path: ${{ env.OUTPUT_FILE }}
+          if-no-files-found: error
