@@ -14,6 +14,26 @@ EpisodeInfo = collections.namedtuple("EpisodeInfo", ["index", "title", "url"])
 episode_queue = queue.Queue()
 
 
+def get_page_from_url(url, retries=5):
+    """
+    This function simply uses "requests" to get the contents of a given url,
+    it will try "retries" times before returning None.
+    """
+
+    while retries:
+        try:
+            page = requests.get(url, headers={"User-agent": "your bot 0.1"})
+            page.raise_for_status()
+        except requests.exceptions.ConnectionError as e:
+            retries -= 1
+            print(f"ConnectionError occurred, retries left = {retries}")
+        else:
+            # No exception occurred, return page object
+            return page
+
+    return None
+
+
 def get_episodes(start=1, end=None):
     """
     This function scrapes the main "Hello Internet" website starting from episode
@@ -30,7 +50,7 @@ def get_episodes(start=1, end=None):
         episode_index <= end if end else episode_url != None
     ) and episode_url != None:
 
-        episode_page = requests.get(episode_url, headers={"User-agent": "your bot 0.1"})
+        episode_page = get_page_from_url(episode_url)
 
         if episode_page.status_code != 200:
             print(
@@ -67,9 +87,7 @@ def generate_episode(episode_info):
         f'Generating episode {episode_info.index}: "{episode_info.title}" ({episode_info.url})'
     )
 
-    episode_page = requests.get(
-        episode_info.url, headers={"User-agent": "your bot 0.1"}
-    )
+    episode_page = get_page_from_url(episode_info.url)
 
     if episode_page.status_code != 200:
         print(
