@@ -38,8 +38,8 @@ jobs:
     steps:
       - name: Set variables
         env:
-          DEFAULT_OUTPUT_FILE: "rss.xml"
-          DEFAULT_MAX_WORKERS: "20"
+          DEFAULT_OUTPUT_FILE: rss.xml
+          DEFAULT_MAX_WORKERS: 20
           DEFAULT_FIRST_EPISODE_INDEX: 1
           DEFAULT_LAST_EPISODE_INDEX: 100000000
         run: |
