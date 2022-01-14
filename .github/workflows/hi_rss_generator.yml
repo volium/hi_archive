@@ -58,10 +58,10 @@ jobs:
           pip install -r requirements.txt
       - name: Run hi_rss_generator.py
         run: "python3 hi_rss_generator.py \
-              -o $OUTPUT_FILE \
-              -m $MAX_WORKERS \
-              -f $FIRST_EPISODE_INDEX \
-              -l $LAST_EPISODE_INDEX"
+              -o ${{ env.OUTPUT_FILE }} \
+              -m ${{ env.MAX_WORKERS }} \
+              -f ${{ env.FIRST_EPISODE_INDEX }} \
+              -l ${{ env.LAST_EPISODE_INDEX }}"
       - name: Archive generated RSS feed
         uses: actions/upload-artifact@v2
         with:
