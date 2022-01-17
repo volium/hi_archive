@@ -27,7 +27,7 @@ on:
           required: false
       last_episode_index:
           description: "Index of last episode to process"
-          default: 100000000
+          default: 1000000
           type: number
           required: false
 
@@ -51,7 +51,7 @@ jobs:
           DEFAULT_OUTPUT_FILE: rss.xml
           DEFAULT_MAX_WORKERS: 20
           DEFAULT_FIRST_EPISODE_INDEX: 1
-          DEFAULT_LAST_EPISODE_INDEX: 100000000
+          DEFAULT_LAST_EPISODE_INDEX: 1000000
         run: |
           echo "OUTPUT_FILE=${{ github.event.inputs.output_file || env.DEFAULT_OUTPUT_FILE }}" >> $GITHUB_ENV
           echo "MAX_WORKERS=${{ github.event.inputs.max_workers || env.DEFAULT_MAX_WORKERS }}" >> $GITHUB_ENV
