@@ -42,4 +42,9 @@ jobs:
 
       - name: Get number of episodes processed
         run: |
-          echo ::set-output name=ACCESS_TOKEN::$(python3 parse_rss.py ${{ env.OUTPUT_FILE }})
+          echo ::set-output name=EPISODES::$(python3 parse_rss.py ${{ env.OUTPUT_FILE }})
+        id: current_episodes
+
+      - name: Print episodes processed
+        run: |
+          echo Episodes preocessed: ${{ steps.current_episodes.outputs.EPISODES }}
