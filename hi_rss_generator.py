@@ -278,7 +278,7 @@ def main(rss_file, max_workers, first_episode_index, last_episode_index):
     print(f"Generated RSS feed ({rss_file}) in {(end - start):.2f} seconds")
 
     print(
-        f"{len(processed_episodes)} episodes were succesfully processed: \n"
+        f"{len(processed_episodes)} episodes were succesfully processed:\n"
         + "\n".join(
             "\tEpisode {index}: {title}".format(**episode[0]._asdict())
             for episode in processed_episodes
@@ -286,7 +286,7 @@ def main(rss_file, max_workers, first_episode_index, last_episode_index):
     ) if len(processed_episodes) > 0 else None
 
     print(
-        f"{len(failed_episodes)} episodes failed to be processed: \n"
+        f"{len(failed_episodes)} episodes failed to be processed:\n"
         + "\n".join(
             "\tEpisode {index}: {title}".format(**episode[0]._asdict())
             for episode in failed_episodes
