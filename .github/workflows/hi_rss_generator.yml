@@ -89,7 +89,7 @@ jobs:
         id: new_episodes
         run: |
           set -eo pipefail
-          echo ::set-output name=EPISODES::$(python3 parse_rss.py ${{ env.OUTPUT_FILE }} | jq ". | length")
+          echo ::set-output name=EPISODES::$(python3 parse_rss.py ${{ env.OUTPUT_FILE2 }} | jq ". | length")
 
       # Uses parse_rss.py to read the xml file and transform it into a json file, which is then fed to "jq"
       - name: Get number of existing episodes
