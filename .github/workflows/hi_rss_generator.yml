@@ -85,14 +85,20 @@ jobs:
           if-no-files-found: error
 
       # Uses parse_rss.py to read the xml file and transform it into a json file, which is then fed to "jq"
+      # NOTE: We force "bash" shell to make sure any errors propagate correctly when piping commands
+      # (-eo pipefail). I also realized that if an error happens inside the expression that sets tha value
+      # for the "::set-output" command, it does not cause the step to fail (this should probably be a bug).
       - name: Get number of new episodes
         id: new_episodes
         shell: bash
         run: |
-          NUM_NEW_EPISODES=$(python3 parse_rss.py ${{ env.NON_EXISTING_FILE }} | jq ". | length")
+          NUM_NEW_EPISODES=$(python3 parse_rss.py ${{ env.OUTPUT_FILE }} | jq ". | length")
           echo ::set-output name=EPISODES::$NUM_NEW_EPISODES
 
       # Uses parse_rss.py to read the xml file and transform it into a json file, which is then fed to "jq"
+      # NOTE: We force "bash" shell to make sure any errors propagate correctly when piping commands
+      # (-eo pipefail). I also realized that if an error happens inside the expression that sets tha value
+      # for the "::set-output" command, it does not cause the step to fail (this should probably be a bug).
       - name: Get number of existing episodes
         id: existing_episodes
         shell: bash
