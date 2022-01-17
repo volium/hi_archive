@@ -109,7 +109,7 @@ jobs:
       # Sends a telegram message if new episodes are detected
       - name: New episodes detected alert
         uses: appleboy/telegram-action@master
-        if: ${{steps.new_episodes.outputs.EPISODES > steps.existing_episodes.outputs.EPISODES}}
+        if: ${{steps.new_episodes.outputs.EPISODES >= steps.existing_episodes.outputs.EPISODES}}
         with:
           to: ${{secrets.TELEGRAM_CHAT_ID}}
           token: ${{secrets.TELEGRAM_TOKEN}}
