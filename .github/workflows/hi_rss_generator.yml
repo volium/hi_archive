@@ -83,14 +83,14 @@ jobs:
       - name: Get number of new episodes
         id: new_episodes
         run: |
-          echo ::set-output name=EPISODES::$(python3 parse_rss.py ${{ env.OUTPUT_FILE }} | jq ". | length")
+          echo ::set-output name=NEW_EPISODES::$(python3 parse_rss.py ${{ env.OUTPUT_FILE }} | jq ". | length")
 
       - name: Get number of existing episodes
         id: existing_episodes
         run: |
-          echo ::set-output name=EPISODES::$(python3 parse_rss.py ${{ env.PRODUCTION_RSS_XML }} | jq ". | length")
+          echo ::set-output name=EXISTING_EPISODES::$(python3 parse_rss.py ${{ env.PRODUCTION_RSS_XML }} | jq ". | length")
 
       - name: Print results from processed RSS feeds
         run: |
-          echo New episodes processed: ${{ steps.new_episodes.outputs.EPISODES }}
-          echo Existing episodes processed: ${{ steps.existing_episodes.outputs.EPISODES }}
+          echo New episodes processed: ${{ steps.new_episodes.outputs.NEW_EPISODES }}
+          echo Existing episodes processed: ${{ steps.existing_episodes.outputs.EXISTING_EPISODES }}
