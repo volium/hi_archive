@@ -114,4 +114,4 @@ jobs:
           token: ${{secrets.TELEGRAM_TOKEN}}
           format: markdown
           message: New episodes detected *(${{steps.new_episodes.outputs.EPISODES}})*
-                   during `${{github.workflow}}` (#${{github.run_number}}`
+                   during `${{github.workflow}}` (#${{github.run_number}})
