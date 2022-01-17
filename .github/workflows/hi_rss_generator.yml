@@ -53,10 +53,10 @@ jobs:
           DEFAULT_FIRST_EPISODE_INDEX: 1
           DEFAULT_LAST_EPISODE_INDEX: 1000000
         run: |
-          echo "OUTPUT_FILE=${{ github.event.inputs.output_file || env.DEFAULT_OUTPUT_FILE }}" >> $GITHUB_ENV
-          echo "MAX_WORKERS=${{ github.event.inputs.max_workers || env.DEFAULT_MAX_WORKERS }}" >> $GITHUB_ENV
-          echo "FIRST_EPISODE_INDEX=${{ github.event.inputs.first_episode_index || env.DEFAULT_FIRST_EPISODE_INDEX }}" >> $GITHUB_ENV
-          echo "LAST_EPISODE_INDEX=${{ github.event.inputs.last_episode_index || env.DEFAULT_LAST_EPISODE_INDEX }}" >> $GITHUB_ENV
+          echo "OUTPUT_FILE=${{github.event.inputs.output_file || env.DEFAULT_OUTPUT_FILE}}" >> $GITHUB_ENV
+          echo "MAX_WORKERS=${{github.event.inputs.max_workers || env.DEFAULT_MAX_WORKERS}}" >> $GITHUB_ENV
+          echo "FIRST_EPISODE_INDEX=${{github.event.inputs.first_episode_index || env.DEFAULT_FIRST_EPISODE_INDEX}}" >> $GITHUB_ENV
+          echo "LAST_EPISODE_INDEX=${{github.event.inputs.last_episode_index || env.DEFAULT_LAST_EPISODE_INDEX}}" >> $GITHUB_ENV
 
       - uses: actions/checkout@v2
 
@@ -72,16 +72,16 @@ jobs:
 
       - name: Run hi_rss_generator.py
         run: "python3 hi_rss_generator.py \
-              -o ${{ env.OUTPUT_FILE }} \
-              -m ${{ env.MAX_WORKERS }} \
-              -f ${{ env.FIRST_EPISODE_INDEX }} \
-              -l ${{ env.LAST_EPISODE_INDEX }}"
+              -o ${{env.OUTPUT_FILE}} \
+              -m ${{env.MAX_WORKERS}} \
+              -f ${{env.FIRST_EPISODE_INDEX}} \
+              -l ${{env.LAST_EPISODE_INDEX}}"
 
       - name: Archive generated RSS feed
         uses: actions/upload-artifact@v2
         with:
           name: rss-feed
-          path: ${{ env.OUTPUT_FILE }}
+          path: ${{env.OUTPUT_FILE}}
           if-no-files-found: error
 
       # Uses parse_rss.py to read the xml file and transform it into a json file, which is then fed to "jq"
@@ -92,7 +92,7 @@ jobs:
         id: new_episodes
         shell: bash
         run: |
-          NUM_NEW_EPISODES=$(python3 parse_rss.py ${{ env.OUTPUT_FILE }} | jq ". | length")
+          NUM_NEW_EPISODES=$(python3 parse_rss.py ${{env.OUTPUT_FILE}} | jq ". | length")
           echo ::set-output name=EPISODES::$NUM_NEW_EPISODES
 
       # Uses parse_rss.py to read the xml file and transform it into a json file, which is then fed to "jq"
@@ -103,14 +103,15 @@ jobs:
         id: existing_episodes
         shell: bash
         run: |
-          NUM_EXISTING_EPISODES=$(python3 parse_rss.py ${{ env.PRODUCTION_RSS_XML }}  | jq ". | length")
+          NUM_EXISTING_EPISODES=$(python3 parse_rss.py ${{env.PRODUCTION_RSS_XML}}  | jq ". | length")
           echo ::set-output name=EPISODES::$NUM_EXISTING_EPISODES
 
       - name: New episodes detected
         uses: appleboy/telegram-action@master
-        if: ${{ steps.new_episodes.outputs.EPISODES >= steps.existing_episodes.outputs.EPISODES }}
+        if: ${{steps.new_episodes.outputs.EPISODES >= steps.existing_episodes.outputs.EPISODES}}
         with:
-          to: ${{ secrets.TELEGRAM_CHAT_ID }}
-          token: ${{ secrets.TELEGRAM_TOKEN }}
-          message: New episodes detected ({{ steps.new_episodes.outputs.EPISODES }}) \
-                   during ${{ github.workflow }} run ${{ github.run_number }}
+          to: ${{secrets.TELEGRAM_CHAT_ID}}
+          token: ${{secrets.TELEGRAM_TOKEN}}
+          format: markdown
+          message: New episodes detected *(${{steps.new_episodes.outputs.EPISODES}})*
+                   during ${{github.workflow}} run ${{github.run_number}}
