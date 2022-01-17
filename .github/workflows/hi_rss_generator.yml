@@ -89,7 +89,7 @@ jobs:
         id: new_episodes
         shell: bash
         run: |
-          NUM_NEW_EPISODES=$(python3 parse_rss.py ${{ env.OUTPUT_FILE }} | jq ". | length")
+          NUM_NEW_EPISODES=$(python3 parse_rss.py ${{ env.NON_EXISTING_FILE }} | jq ". | length")
           echo ::set-output name=EPISODES::$NUM_NEW_EPISODES
 
       # Uses parse_rss.py to read the xml file and transform it into a json file, which is then fed to "jq"
