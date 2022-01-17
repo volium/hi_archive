@@ -33,11 +33,17 @@ on:
 
 # Jobs part of this workflow
 jobs:
+
   run:
     runs-on: ubuntu-latest
+
     steps:
+
+      # Set up environment variables that default to the values given via "workflow_dispatch" inputs
+      # (ie github.event.inputs.X), if available, otherwise the value from "env" is used.
       - name: Set variables
         env:
+          PRODUCTION_RSS_XML: hi_archive_rss.xml
           DEFAULT_OUTPUT_FILE: rss.xml
           DEFAULT_MAX_WORKERS: 20
           DEFAULT_FIRST_EPISODE_INDEX: 1
@@ -47,24 +53,44 @@ jobs:
           echo "MAX_WORKERS=${{ github.event.inputs.max_workers || env.DEFAULT_MAX_WORKERS }}" >> $GITHUB_ENV
           echo "FIRST_EPISODE_INDEX=${{ github.event.inputs.first_episode_index || env.DEFAULT_FIRST_EPISODE_INDEX }}" >> $GITHUB_ENV
           echo "LAST_EPISODE_INDEX=${{ github.event.inputs.last_episode_index || env.DEFAULT_LAST_EPISODE_INDEX }}" >> $GITHUB_ENV
+
       - uses: actions/checkout@v2
+
       - name: Set up Python 3.10
         uses: actions/setup-python@v2
         with:
           python-version: "3.10"
+
       - name: Install python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
       - name: Run hi_rss_generator.py
         run: "python3 hi_rss_generator.py \
               -o ${{ env.OUTPUT_FILE }} \
               -m ${{ env.MAX_WORKERS }} \
               -f ${{ env.FIRST_EPISODE_INDEX }} \
               -l ${{ env.LAST_EPISODE_INDEX }}"
+
       - name: Archive generated RSS feed
         uses: actions/upload-artifact@v2
         with:
           name: rss-feed
           path: ${{ env.OUTPUT_FILE }}
           if-no-files-found: error
+
+      - name: Get number of new episodes
+        id: new_episodes
+        run: |
+          echo ::set-output name=EPISODES::$(python3 parse_rss.py ${{ env.OUTPUT_FILE }} | jq ". | length")
+
+      - name: Get number of existing episodes
+        id: existing_episodes
+        run: |
+          echo ::set-output name=EPISODES::$(python3 parse_rss.py ${{ env.PRODUCTION_RSS_XML }} | jq ". | length")
+
+      - name: Print results from processed RSS feeds
+        run: |
+          echo New episodes processed: ${{ steps.new_episodes.outputs.EPISODES }}
+          echo Existing episodes processed: ${{ steps.existing_episodes.outputs.EPISODES }}
