@@ -75,8 +75,8 @@ jobs:
         id: test_pipefail
         shell: bash
         run: |
-          set -eo pipefail
-          echo ::set-output name=EPISODES::$(python3 parse_rss.py ${{ env.NON_EXISTING_FILE }} | jq ". | length") $?
+          NUM_EPISODES=$(python3 parse_rss.py hi_archive_rss.xml | jq ". | length")
+          echo ::set-output name=EPISODES::$NUM_EPISODES
 
       - name: Run hi_rss_generator.py
         run: "python3 hi_rss_generator.py \
