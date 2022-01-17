@@ -1,5 +1,5 @@
 # hi_archive
 
-[![Run hi_rss_generator.py](https://github.com/volium/hi_archive/actions/workflows/hi_rss_generator.yml/badge.svg)](https://github.com/volium/hi_archive/actions/workflows/hi_rss_generator.yml)
+[![Generate RSS feed](https://github.com/volium/hi_archive/actions/workflows/generate_rss.yml/badge.svg)](https://github.com/volium/hi_archive/actions/workflows/generate_rss.yml)
 
 Builds the RSS Feed of the [Hello Internet](http://hellointernet.fm/) podcast, scraping the website.
