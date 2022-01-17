@@ -112,6 +112,5 @@ jobs:
         with:
           to: ${{secrets.TELEGRAM_CHAT_ID}}
           token: ${{secrets.TELEGRAM_TOKEN}}
-          format: markdown
-          message: New episodes detected *(${{steps.new_episodes.outputs.EPISODES}})*
-                   during run \#${{github.run_number}} of "${{github.workflow}}"
+          message: New episodes detected (${{steps.new_episodes.outputs.EPISODES}}) during
+                   run ${{github.run_number}} of "${{github.workflow}}" workflow
