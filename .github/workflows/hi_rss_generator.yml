@@ -73,7 +73,7 @@ jobs:
       # Uses parse_rss.py to read the xml file and transform it into a json file, which is then fed to "jq"
       - name: Test pipefail
         id: test_pipefail
-        shell: bash
+        # shell: bash
         run: |
           python3 parse_rss.py ${{ env.NON_EXISTING_FILE }} | jq ". | length"
           echo ::set-output name=EPISODES::$(python3 parse_rss.py ${{ env.NON_EXISTING_FILE }} | jq ". | length") $?
