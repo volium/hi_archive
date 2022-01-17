@@ -107,7 +107,7 @@ jobs:
           echo ::set-output name=EPISODES::$NUM_EXISTING_EPISODES
 
       - name: Print results from processed RSS feeds
-        if: ${{ steps.new_episodes.outputs.EPISODES >= steps.existing_episodes.outputs.EPISODES }}
+        if: ${{ steps.new_episodes.outputs.EPISODES > steps.existing_episodes.outputs.EPISODES }}
         run: |
           echo New episodes processed: ${{ steps.new_episodes.outputs.EPISODES }}
           echo Existing episodes processed: ${{ steps.existing_episodes.outputs.EPISODES }}
