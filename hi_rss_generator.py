@@ -1,6 +1,7 @@
 import click
 import collections
 import concurrent.futures
+import pathlib
 import queue
 import requests
 import time
@@ -77,7 +78,7 @@ def get_episodes(start=1, end=None):
     )
 
 
-def generate_episode(episode_info):
+def generate_episode(episode_info, media_location=None):
     """
     This function scrapes a specific url, gathers all the necessary information and
     generates a podgen episode object with it.
@@ -135,8 +136,18 @@ def generate_episode(episode_info):
     episode.publication_date = episode_datePublished
     episode.media = episode_media
 
-    # Use fetch_duration to get the most accurate information
-    episode.media.fetch_duration()
+    if media_location:
+        # If "media_location" is set, use it to store the actual media files
+        file_name = (
+            f"hello_internet_{episode_info.index:03d}{episode_media.file_extension}"
+        )
+        file_path = pathlib.Path(media_location) / file_name
+        episode.media.download(file_path)
+        # Use populate_duration_from to get the information from the downloaded file
+        episode.media.populate_duration_from(file_path)
+    else:
+        # Use fetch_duration which will download the media file to a temp location and get the information from it
+        episode.media.fetch_duration()
 
     return episode
 
@@ -153,6 +164,21 @@ podcast = Podcast(
     language="en-US",
     explicit=False,
 )
+
+
+def validate_keep_media_path(ctx, param, value):
+    """
+    Validate the path used to set the 'keep_media' option
+    """
+    if value is None or pathlib.Path(value).exists():
+        return value
+    else:
+        path = pathlib.Path(value)
+        pathlib.Path(path).mkdir(parents=True, exist_ok=True)
+        if path.exists():
+            return path
+        else:
+            raise click.BadParameter("provide a valid path for media")
 
 
 @click.command()
@@ -191,7 +217,20 @@ podcast = Podcast(
     required=False,
     help="index of last episode to parse",
 )
-def main(rss_file, max_workers, first_episode_index, last_episode_index):
+@click.option(
+    "-k",
+    "--keep_media",
+    "media_location",
+    type=str,
+    prompt=True,
+    prompt_required=False,
+    required=False,
+    callback=validate_keep_media_path,
+    help="if used, media files will be kept in the directory given",
+)
+def main(
+    rss_file, max_workers, first_episode_index, last_episode_index, media_location
+):
     """
     Main function
     """
@@ -201,6 +240,7 @@ def main(rss_file, max_workers, first_episode_index, last_episode_index):
     print(f"\tmax_workers = {max_workers}")
     print(f"\tfirst_episode_index = {first_episode_index}")
     print(f"\tlast_episode_index = {last_episode_index}")
+    print(f"\tmedia_location = {media_location}")
     processed_episodes = []
     failed_episodes = []
 
@@ -233,7 +273,7 @@ def main(rss_file, max_workers, first_episode_index, last_episode_index):
 
                 # Create a new future with the episode_info object
                 future_to_episode[
-                    executor.submit(generate_episode, episode_info)
+                    executor.submit(generate_episode, episode_info, media_location)
                 ] = episode_info
 
             # Process any completed futures
