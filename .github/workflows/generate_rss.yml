@@ -106,10 +106,10 @@ jobs:
           NUM_EXISTING_EPISODES=$(python3 parse_rss.py ${{env.PRODUCTION_RSS_XML}}  | jq ". | length")
           echo ::set-output name=EPISODES::$NUM_EXISTING_EPISODES
 
-      # Sends a telegram message if new episodes are detected
+      # Sends a Telegram message if new episodes are detected
       - name: New episodes detected alert
         uses: appleboy/telegram-action@master
-        if: ${{steps.new_episodes.outputs.EPISODES > steps.existing_episodes.outputs.EPISODES}}
+        if: ${{ fromJSON(steps.new_episodes.outputs.EPISODES) > fromJSON(steps.existing_episodes.outputs.EPISODES) }}
         with:
           to: ${{secrets.TELEGRAM_CHAT_ID}}
           token: ${{secrets.TELEGRAM_TOKEN}}
