@@ -288,9 +288,9 @@ def main(
                         )
                         failed_episodes.append((episode_info, e))
                     elif isinstance(episode_info, str):
-                        print(f"Producer thread generated an exception: {e}")
+                        raise Exception("Producer thread generated an exception") from e
                     else:
-                        print(f"Unexpected exception: {e}")
+                        raise Exception(f"Unexpected exception") from e
                 else:
                     if isinstance(episode_object, Episode):
                         print(f'Finished processing episode "{episode_object.title}"')
