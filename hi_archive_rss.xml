@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 09 Jan 2022 22:16:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Sep 2022 15:58:31 +0000</lastBuildDate>
     <itunes:author>CGP Grey and Brady Haran</itunes:author>
     <dc:creator>CGP Grey</dc:creator>
     <dc:creator>Brady Haran</dc:creator>
@@ -562,7 +562,6 @@
     <item>
       <title>Twelve Drummers Drumming</title>
       <link>http://www.hellointernet.fm/podcast/2019/1/5/twelve-drummers-drumming</link>
-      <description><![CDATA[<h3><a href="https://twitter.com/hellointernetfm" target="_blank">@HellointernetFM</a></h3><h3><a href="http://www.cgpgrey.com" target="_blank">CGP Grey</a></h3><h3><a href="http://www.bradyharan.com">Brady Haran</a></h3>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/Twelve_Drummers_Drumming.mp3</guid>
@@ -573,7 +572,6 @@
     <item>
       <title>Eleven Pipers Piping</title>
       <link>http://www.hellointernet.fm/podcast/2019/1/4/eleven-pipers-piping</link>
-      <description><![CDATA[<h3><a href="https://twitter.com/hellointernetfm" target="_blank">@HellointernetFM</a></h3><h3><a href="http://www.cgpgrey.com" target="_blank">CGP Grey</a></h3><h3><a href="http://www.bradyharan.com">Brady Haran</a></h3>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/Eleven_Pipers_Piping.mp3</guid>
@@ -584,7 +582,6 @@
     <item>
       <title>Ten Lords A-leaping</title>
       <link>http://www.hellointernet.fm/podcast/2019/1/3/ten-lords-a-leaping-really</link>
-      <description><![CDATA[<h3><a href="https://twitter.com/hellointernetfm" target="_blank">@HellointernetFM</a></h3><h3><a href="http://www.cgpgrey.com" target="_blank">CGP Grey</a></h3><h3><a href="http://www.bradyharan.com">Brady Haran</a></h3>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/10_Lords_A-leaping.mp3</guid>
@@ -595,7 +592,6 @@
     <item>
       <title>Nine Ladies Dancing</title>
       <link>http://www.hellointernet.fm/podcast/2019/1/2/nine-ladies-dancing</link>
-      <description><![CDATA[<h3><a href="https://twitter.com/hellointernetfm" target="_blank">@HellointernetFM</a></h3><h3><a href="http://www.cgpgrey.com" target="_blank">CGP Grey</a></h3><h3><a href="http://www.bradyharan.com">Brady Haran</a></h3>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/Nine_Ladies_Dancing.mp3</guid>
@@ -606,7 +602,6 @@
     <item>
       <title>Eight Maids A-Milking</title>
       <link>http://www.hellointernet.fm/podcast/2019/1/1/8-maids-a-milking</link>
-      <description><![CDATA[<h3><a href="https://twitter.com/hellointernetfm" target="_blank">@HellointernetFM</a></h3><h3><a href="http://www.cgpgrey.com" target="_blank">CGP Grey</a></h3><h3><a href="http://www.bradyharan.com">Brady Haran</a></h3>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/8_Maids_A-Milking.mp3</guid>
@@ -631,7 +626,6 @@
     <item>
       <title>Six Geese A-laying</title>
       <link>http://www.hellointernet.fm/podcast/2018/12/30/six-geese-a-laying</link>
-      <description><![CDATA[<h3><a href="https://twitter.com/hellointernetfm" target="_blank">@HellointernetFM</a></h3><h3><a href="http://www.cgpgrey.com" target="_blank">CGP Grey</a></h3><h3><a href="http://www.bradyharan.com">Brady Haran</a></h3>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/Six_Geese_A-laying.mp3</guid>
@@ -642,7 +636,6 @@
     <item>
       <title>Five Gold Rings</title>
       <link>http://www.hellointernet.fm/podcast/2018/12/29/five-gold-rings</link>
-      <description><![CDATA[<h3><a href="https://twitter.com/hellointernetfm" target="_blank">@HellointernetFM</a></h3><h3><a href="http://www.cgpgrey.com" target="_blank">CGP Grey</a></h3><h3><a href="http://www.bradyharan.com">Brady Haran</a></h3>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/Five_Gold_Rings.mp3</guid>
@@ -653,7 +646,6 @@
     <item>
       <title>Four Calling Birds</title>
       <link>http://www.hellointernet.fm/podcast/2018/12/28/four-calling-birds</link>
-      <description><![CDATA[<h3><a href="https://twitter.com/hellointernetfm" target="_blank">@HellointernetFM</a></h3><h3><a href="http://www.cgpgrey.com" target="_blank">CGP Grey</a></h3><h3><a href="http://www.bradyharan.com">Brady Haran</a></h3>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/Four_Calling_Birds.mp3</guid>
@@ -664,7 +656,6 @@
     <item>
       <title>Three French Hens</title>
       <link>http://www.hellointernet.fm/podcast/2018/12/27/three-french-hens</link>
-      <description><![CDATA[<h3><a href="https://twitter.com/hellointernetfm" target="_blank">@HellointernetFM</a></h3><h3><a href="http://www.cgpgrey.com" target="_blank">CGP Grey</a></h3><h3><a href="http://www.bradyharan.com">Brady Haran</a></h3>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/Three_French_Hens.mp3</guid>
@@ -675,7 +666,6 @@
     <item>
       <title>Two Turtle Doves</title>
       <link>http://www.hellointernet.fm/podcast/2018/12/26/two-turtle-doves</link>
-      <description><![CDATA[<h3><a href="https://twitter.com/hellointernetfm" target="_blank">@HellointernetFM</a></h3><h3><a href="http://www.cgpgrey.com" target="_blank">CGP Grey</a></h3><h3><a href="http://www.bradyharan.com">Brady Haran</a></h3>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/Two_Turtle_Doves.mp3</guid>
@@ -1451,7 +1441,8 @@
 <p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/59f89a0824a69446e9117b12/1509464905600/engine.png?format=1500w">Grey's view while editing plane crash corner. Thanks, Brady.</a></p>
 <p><a href="https://www.youtube.com/watch?v=C25qzDhGLx8">Grey: Why Die?</a></p>
 <p><a href="https://twitter.com/BradyHaran/status/921783730498359299">Live fast, but die old</a></p>
-<p><a href="https://www.youtube.com/watch?v=GoJsr4IwCm4">Kurzgesagt: Why Age? Should We End Aging Forever?</a></p>]]></description>
+<p><a href="https://www.youtube.com/watch?v=GoJsr4IwCm4">Kurzgesagt: Why Age? Should We End Aging Forever?</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/HI_91.mp3</guid>
@@ -2570,7 +2561,8 @@
 <p><a href="https://www.youtube.com/watch?v=zVqFAMOtwaI">Nostalgia Critic: Where's The Fair Use?</a></p>
 <p><a href="https://www.youtube.com/watch?v=nuTHhtCyzLg">Your Movie Sucks: YouTube's Content ID System SUCKS</a></p>
 <p><a href="https://www.facebook.com/cgpgrey/">Grey's Facebook page</a></p>
-<p><a href="https://www.facebook.com/numberphile">Numberphile's Facebook page</a></p>]]></description>
+<p><a href="https://www.facebook.com/numberphile">Numberphile's Facebook page</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/58.mp3</guid>
@@ -2605,7 +2597,8 @@
 <p><a href="https://www.youtube.com/watch?v=00Qu1kgsGpM">Numberphile: Professors React to 2048</a></p>
 <p><a href="https://itunes.apple.com/us/app/threes!/id779157948?mt=8&amp;uo=4&amp;at=11l5Fy">Threes</a></p>
 <p><a href="http://www.amazon.com/gp/product/1594487138/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1594487138&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=AMW5MRWEQJKT7VI2"><em>So You've Been Publicly Shamed</em>, by Jon Ronson</a></p>
-<p><a href="https://en.wikipedia.org/wiki/Online_shaming#Sacco_incident">The Sacco incident</a></p>]]></description>
+<p><a href="https://en.wikipedia.org/wiki/Online_shaming#Sacco_incident">The Sacco incident</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/57.mp3</guid>
@@ -2634,7 +2627,8 @@
 <p><a href="http://www.amazon.com/gp/product/0143120549/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0143120549&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=NXT2YI5237L6TW55"><em>Triumph of the City</em>, by Edward Glaeser</a></p>
 <p><a href="https://www.govt.nz/browse/engaging-with-government/the-nz-flag-your-chance-to-decide/2-choices/">New Zealand flag referendum results</a></p>
 <p><a href="https://en.wikipedia.org/wiki/New_Zealand_flag_referendums,_2015–16#First_referendum">New Zealand flag referendum voting breakdown</a></p>
-<p><a href="https://www.youtube.com/watch?v=34M2zdLc-2U">Making a Murder first episode on YouTube</a></p>]]></description>
+<p><a href="https://www.youtube.com/watch?v=34M2zdLc-2U">Making a Murder first episode on YouTube</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/56.mp3</guid>
@@ -2673,7 +2667,8 @@
 <p><a href="https://youtu.be/Oy8ZMFXS_5E">Periodic Videos: FOUR new elements video (when Brady thinks it REALLY becomes official)</a></p>
 <p><a href="https://www.youtube.com/watch?v=dngOH9G4UPw">General Zod as an angry sorority girl</a></p>
 <p><a href="https://youtu.be/DybxwjELg4A">Henry's blistering Fitotron 5000m</a></p>
-<p><a href="http://store.dftba.com/products/hello-internet-exercise-shirt">FITOTRON 5000 Shirt</a></p>]]></description>
+<p><a href="http://store.dftba.com/products/hello-internet-exercise-shirt">FITOTRON 5000 Shirt</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/55.mp3</guid>
@@ -2691,7 +2686,8 @@
 <p><a href="http://www.patreon.com/hellointernet">Listeners like YOU on Patreon</a></p>
 <h2 id="shownotes">Show Notes</h2>
 <p><strong><a href="https://www.reddit.com/r/CGPGrey/comments/3y5yfd/hi_54_star_wars_christmas_special/">Discuss this episode on the reddit</a></strong></p>
-<p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/5681195ed8af10f889a457ee/1451301247115/IMG_6589.png?format=1500w">Brady's scratchie</a></p>]]></description>
+<p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/5681195ed8af10f889a457ee/1451301247115/IMG_6589.png?format=1500w">Brady's scratchie</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/54.mp3</guid>
@@ -2708,7 +2704,8 @@
 <p><a href="http://igloosoftware.com/hello">Igloo: An intranet you'll actually like</a></p>
 <p><a href="http://www.backblaze.com/hellointernet">Backblaze: Online backup for $5/month</a></p>
 <p><a href="http://www.patreon.com/hellointernet">Listeners like you</a></p>
-<h2 id="postcards">Postcards!</h2>]]></description>
+<h2 id="postcards">Postcards!</h2>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277043770-J16RXFT44CKW72FVJWTA/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277061627-E6MGC41SC0UVBD0BZ75G/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277115647-WO1YI68MAIH1LV5EOCO2/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277104636-KWZ5DRJT4VD5DMOV0YSE/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277089737-3ALKN4PPSG2PFYQBV0I4/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277143629-JHNBI40ETP2PIGT7F66V/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277154695-NEHRMC2QNEXDUWR6KC3I/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277168912-OTPOVFW6LSHTKH9E244E/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277185696-GM6CLG3Z748QCRO3HWQO/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277197230-ODEISYC3DPLU00VOZ6VS/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277221292-ZJMPFES5CYJU2VBA234R/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277232844-2M4FYGJVED2Q4805BWX4/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277244924-QTK045V18KUKB76PW7ZO/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277259419-K7OUCK0LF8D361T2PCL7/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277285019-G122WCSSZF4U4ASL5OKP/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277311588-9XLQEQ1VN7MCFHZEGDJP/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277326458-OD7UE3ZTBV7GFEQBEDQA/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277335916-OIX3XTONGPMNU15Z0N7C/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277357354-WKZ8PC3GS7NF8LALWRSF/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277374530-FZWD9QL6IZSUW0IZWXY4/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277399614-HW17ISJ06JVJFKPZ6N5L/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277423842-VWM4691TPM9LGWMF2WLG/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277437785-2BFA2BPWIKVXQE7VLU8Q/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277449251-P6IQC0FMU2TVNUXXSGPP/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277460613-WKHXE7CL05ZRJLNECDDL/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277533822-D9RWGHTB68UNXLFHGZ7T/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277548491-UXO7KFQEKV57I5LQB3JS/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277561279-6O4FWNZ8PSRRY49K6DCK/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277572567-G65QDF1VWPNNNKGC7TUP/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277594316-VYH80GCZ14MLCOCEK4UM/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277605195-CJFI17PFX653T06FBST5/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277619490-PR2C8HEDUNK1W2DRB6F8/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1450277634424-3A0NA85WF2SFIIZLW6KK/image-asset.jpeg"/></p>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/53.mp3</guid>
@@ -2741,7 +2738,8 @@
 <p><a href="http://amzn.to/1QOPs2O">Superintelligence: Paths, Dangers, Strategies, Nick Bostrom</a></p>
 <p><a href="https://www.youtube.com/watch?v=7PKx3kS7f4A">Computerphile: Why Asimov's Laws of Robotics Don't Work</a></p>
 <p><a href="http://hermiene.net/short-stories/i_have_no_mouth.html">I Have No Mouth, and I Must Scream by Harlan Ellison</a></p>
-<p><a href="https://itunes.apple.com/gb/tv-season/black-mirror-white-christmas/id952345976">Black Mirror: White Christmas</a></p>]]></description>
+<p><a href="https://itunes.apple.com/gb/tv-season/black-mirror-white-christmas/id952345976">Black Mirror: White Christmas</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/52.mp3</guid>
@@ -2781,7 +2779,8 @@
 <p><a href="https://www.reddit.com/r/FITOTRON5000/">r/FITOTRON5000</a></p>
 <p><a href="https://twitter.com/intent/tweet?original_referer=https://about.twitter.com/resources/buttons&amp;text=%20%23FOT5k">#FOT5k</a></p>
 <p><a href="http://www.cgpgrey.com/blog/dialing-down">Dialing Down</a></p>
-<p><a href="https://en.wikipedia.org/wiki/Subvocalization">Subvocalization</a></p>]]></description>
+<p><a href="https://en.wikipedia.org/wiki/Subvocalization">Subvocalization</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/51.mp3</guid>
@@ -2815,7 +2814,31 @@
 <p><a href="https://en.wikipedia.org/wiki/HeroQuest">HeroQuest</a></p>
 <p><a href="http://www.bradyharanblog.com/blog/2015/10/19/hotstopper-awareness">Hotstopper Awareness</a></p>
 <p><a href="http://www.bradyharanblog.com/blog/2015/5/11/cgp-grey-the-penguin">CGP Grey the penguin</a></p>
-<p><a href="https://goo.gl/RBhzWJ">County Flags of Liberia</a></p>]]></description>
+<p><a href="https://goo.gl/RBhzWJ">County Flags of Liberia</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821605633-615Z47UCYD4UYJD8SHGC/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821505779-K541IWFIGX3G0A85GTNS/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821682427-V8F3S0EXYUYADQ908RUV/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821577170-L5ZA1E16W8PWZ3YQV8YU/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821548457-5PFD6QCBZDF6TIMOSOHC/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821519528-3K6NXYFI1WG96KMHERLE/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821592413-JOEJXEAFTCJSWYR2TKZ0/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821793464-AN1ECC782ZTMFAMYFQKA/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821642441-G1SD2SENW0F9CM44JCR8/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821621074-OX15971FH30YACN66XX8/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821493067-TEBIO490A5SZCKQKN26E/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821669110-IKTHRU2FK5YWMLEZGQN7/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821656198-NQMOXJ51URIAOHMVWKZN/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821475274-VGPUL5T5LFL9ZTQXXIDF/image-asset.png"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1446821533442-J6A1ULBYJRPRPCAGW2VE/image-asset.png"/></p><p><a href="https://goo.gl/FWZEQw">Japanese Prefectural flags</a></p>
+<p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/563c8ec5e4b098c9085ecd0c/1446809761342/?format=1500w">Hello Internet in Kenya</a></p>
+<p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/563c9279e4b01da59206694a/1446810382807/?format=1500w">Hello Internet in the locker room</a></p>
+<p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/563c935ee4b0b249b09449ab/1446810721061/?format=1500w">A Hello Internet historical landmark</a></p>
+<p><em>*</em><a href="http://store.dftba.com/products/hello-internet-exercise-shirt">Hello Internet FITOTRON 5000 exercise shirts</a><em>*</em></p>
+<p><a href="https://www.youtube.com/red">YouTube Red</a></p>
+<p><a href="https://www.youtube.com/watch?v=r6oX7zAjMsE">Pew Die Pie's YouTube Red show</a></p>
+<p><a href="https://youtu.be/R6hmfyFt0uY?t=1h56m32s">Hello Internet discusses YouTube Red before we knew anything about it</a></p>
+<p><a href="https://www.youtube.com/watch?v=2v3i5pRmqI4">John Green discusses YouTube Red</a></p>
+<p><a href="https://www.youtube.com/user/TaylorSwiftVEVO/videos?flow=grid&amp;sort=p&amp;view=0">Bow down before Taylor Swift's view numbers</a></p>
+<p><a href="https://goo.gl/o8PqIr">Apple Music royalty payments</a></p>
+<p><a href="https://itunes.apple.com/us/movie/mean-girls/id208511170?uo=4&amp;at=11l5Fy">Mean Girls</a></p>
+<p><a href="http://perimeterinstitute.ca">Perimeter Institute for Theoretical Physics</a></p>
+<p><a href="https://www.youtube.com/user/minutephysics">Henry of Minute Physics</a></p>
+<p><a href="https://www.perimeterinstitute.ca/outreach/brainstem-unconference">BrainSTEM conference</a></p>
+<p><a href="https://twitter.com/johngreen">John Green</a></p>
+<p><a href="http://vidcon.com">VidCon</a></p>
+<p><a href="https://www.youtube.com/watch?v=YBbBbY4qvv4">Brady: British Numbers Confuse Americans</a></p>
+<p><a href="https://www.youtube.com/watch?v=SnrdqCQuwK8">Derek's of Ver-ih-TAH-see-um video of the BrainSTEM conference where educational YouTubers met for the first time</a></p>
+<p><a href="http://atp.fm">Accidental Tech Podcast</a></p>
+<p><a href="https://twitter.com/gruber">John Gruber</a></p>
+<p><a href="http://daringfireball.net/thetalkshow/">The Talk Show</a></p>
+<p><a href="https://www.youtube.com/watch?v=SGa3ah03uBI&amp;list=PLe_b-HAZD1pXZl1UzE7Q9IiYMXKxSG7Lg&amp;index=1">The first episode of Hello Internet</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/50.mp3</guid>
@@ -2826,7 +2849,12 @@
     <item>
       <title>The Shortlist (BONUS EPISODE)</title>
       <link>http://www.hellointernet.fm/podcast/the-shortlist</link>
-      <description><![CDATA[<p>Grey and Brady discuss the upcoming Hello Internet flag referendum.  </p><h2>Brought To You By:</h2><p><a href="https://www.harrys.com/?hellointernetpodcast">Harry's: Quality Men's Shaving Products. Promocode HI for $5 off your first purchase</a></p><h2>Show Notes:</h2><p><a href="http://www.hellointernet.fm/flagvote" target="_blank">Click here for the voting instructions</a>, and scroll down to see the candidates.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><h3>Club &amp; Claws:</h3>]]></description>
+      <description><![CDATA[<p>Grey and Brady discuss the upcoming Hello Internet flag referendum.  </p><h2>Brought To You By:</h2><p><a href="https://www.harrys.com/?hellointernetpodcast">Harry's: Quality Men's Shaving Products. Promocode HI for $5 off your first purchase</a></p><h2>Show Notes:</h2><p><a href="http://www.hellointernet.fm/flagvote" target="_blank">Click here for the voting instructions</a>, and scroll down to see the candidates.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><h3>Club &amp; Claws:</h3>
+<p><img alt="Club &amp; Claws.png" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1445437212790-4LM2JLSWBXXKGMLDRMLF/Club+%26+Claws.png"/></p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><h3>White Cross:</h3>
+<p><img alt="White Cross.png" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1445437528419-ZDCX2PCRU17A2O4R9NJ3/White+Cross.png"/></p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><h3>Flaggy Flag:</h3>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1445437951613-H8CQM9Y5T62L0XK83NIX/image-asset.png"/></p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><h3>H.I. Logo</h3>
+<p><img alt="H.I. Logo.png" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1445438244730-FHU8O4HHRSZ31Z73H26E/H.I.+Logo.png"/></p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>Nail &amp; Gear</p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1445438408108-VLGFS4J82AJT69WC3L5R/image-asset.jpeg"/></p>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/The_Shortlist.mp3</guid>
@@ -2862,7 +2890,8 @@
 <p><a href="https://en.wikipedia.org/wiki/Chronology_of_discoveries_of_water_on_Mars">Chronology of discoveries of water on Mars</a></p>
 <p><a href="http://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/5624d013e4b083b724bc0863/1445253141010/?format=1500w">CGP Grey weigh-in</a></p>
 <p><a href="https://en.wikipedia.org/wiki/Flag_of_Cyprus">Flag of Cyprus</a></p>
-<p><a href="http://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/5624befae4b0099ac9cf7037/1445248771053/?format=1500w">Grasshopper penis (NSFG!)</a></p>]]></description>
+<p><a href="http://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/5624befae4b0099ac9cf7037/1445248771053/?format=1500w">Grasshopper penis (NSFG!)</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/49.mp3</guid>
@@ -2888,7 +2917,19 @@
 <p><a href="https://en.wikipedia.org/wiki/Swiss_Army_knife#Knives_issued_by_the_Swiss_military">Swiss Army Knives</a></p>
 <p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/560aaac4e4b0225c29251fde/1443539654457/Swiss+Army+Knife.jpg?format=1500w">Andreas's Swiss Army Knife</a></p>
 <p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/560aaad0e4b0225c29252041/1443539665441/Bradyknife.jpg?format=1500w">Brady's Swiss Army Knife</a></p>
-<p><a href="https://twitter.com/intent/tweet?original_referer=https://about.twitter.com/resources/buttons&amp;text=%20.%20@StarBucksUK%20We%20demand%20hotstoppers%20in%20ALL%20Starbucks%20in%20the%20UK&amp;tw_p=tweetbutton&amp;url=https://goo.gl/62WwXH&amp;via=HelloInternetfm">CLICK HERE to help bring hotstoppers to Starbucks in the UK</a></p>]]></description>
+<p><a href="https://twitter.com/intent/tweet?original_referer=https://about.twitter.com/resources/buttons&amp;text=%20.%20@StarBucksUK%20We%20demand%20hotstoppers%20in%20ALL%20Starbucks%20in%20the%20UK&amp;tw_p=tweetbutton&amp;url=https://goo.gl/62WwXH&amp;via=HelloInternetfm">CLICK HERE to help bring hotstoppers to Starbucks in the UK</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1443556032333-Q9Q72A4H9AFAPR4M6BP3/image-asset.png"/></p><p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/560ab09ee4b0c7c832b222f1/1443541162619/Img+0626.jpg?format=1500w">Photo from inside the Fractory</a></p><p><a href="http://www.luxuriousmagazine.com/2015/09/magna-carta-flies-first-class-with-british-airways/">Magna Carta First Class</a></p><p><a href="https://en.wikipedia.org/wiki/Codex_Leicester">Codex Leicester</a></p><p><a href="https://flightfox.com/tradecraft/best-first-class">Airline first class rankings</a></p><p><a href="http://www.bbc.co.uk/news/world-asia-34333018">New Zealand U-turns on Red Peak flag</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1443556057687-1DRGEKRNWWTX0ES95RLX/image-asset.jpeg"/></p><p><a href="https://twitter.com/intent/tweet?original_referer=https://about.twitter.com/resources/buttons&amp;text=%20.%20@johnkeypm%20New%20Zealand%20needs%20Black%20Jack!%20Add%20it%20to%20the%20flag%20referendum!&amp;tw_p=tweetbutton&amp;url=https://goo.gl/FcK2ik">CLICK HERE FOR BLACK JACK INTERNET OUTRAGE CAMPAIGN</a></p>
+<p><a href="http://www.propstore.com/product/back-to-the-future-part-ii/30-live-auction-2015-grays-sports-almanac/">Sports Almanac Auction</a></p>
+<p><a href="https://twitter.com/standupmaths">Matt Parker</a></p>
+<p><a href="https://twitter.com/greyhealthbot">@greyhealthbot</a></p>
+<p><a href="https://www.youtube.com/watch?v=DtSXlTTGFrQ&amp;list=PLe_b-HAZD1pXZl1UzE7Q9IiYMXKxSG7Lg&amp;index=3">Hello Internet #3: Four Light Bulbs</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Banksy">Banksy</a></p>
+<p><a href="http://dismaland.co.uk">Dismaland</a></p>
+<p><a href="https://flic.kr/p/yX56nZ">Cinderella crash</a></p>
+<p><a href="http://www.bradyharanblog.com/blog/2015/8/24/dismaland-by-banksy">Brady's Dismaland photos</a></p>
+<p><a href="https://flic.kr/s/aHskkHw8V4">Grey's Dismaland photos</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/48.mp3</guid>
@@ -2902,7 +2943,15 @@
       <description><![CDATA[
 <p>Grey &amp; Brady discuss: the lack of hotstoppers in Starbucks in the UK, wolfgate, pilots and snipers, Google's new logo and Google creepiness, the bi-weekly weigh in and the Grey Health Bot, Corners Corner, and the next round of drama in the New Zealand flag referendum. </p><h2 id="broughttoyouby">Brought to You By:</h2><p><a href="https://www.fractureme.com/?hellointernetpodcast">Fracture: Photos printed in vivid color directly on glass. Use code HELLOINTERNET for 15% off your first order.</a></p><p><a href="https://www.harrys.com/?hellointernetpodcast">Harry's: Quality Men's Shaving Products. Promocode HI for $5 off your first purchase</a></p><p><a href="https://www.hover.com/?hellointernet">Hover: The best way to buy and manage domain names. Use coupon code 'Flags' for 10% off</a></p><p><a href="http://www.patreon.com/hellointernet">Listeners like YOU on Patreon.</a></p><h2 id="shownotes">Show Notes:</h2><p><strong><a href="https://www.reddit.com/r/CGPGrey/comments/3lwwny/hi_47_charismatic_megafauna/">Discuss this episode</a></strong></p><p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/560023ade4b08c37b1eee284/1442849740791/Img+1307.jpg?format=1500w">Hotstoppers</a></p><p><a href="https://twitter.com/intent/tweet?original_referer=https://about.twitter.com/resources/buttons&amp;text=%20.%20@StarBucksUK%20We%20demand%20hotstoppers%20in%20the%20UK&amp;tw_p=tweetbutton&amp;url=https://goo.gl/62WwXH&amp;via=HelloInternetfm">Click here to demand hotstoppers in the UK</a></p>
 <p><a href="https://www.youtube.com/watch?v=pT52hREAf18">Brady: Chinese Lucky Numbers</a></p>
-<p><a href="http://emojipedia.org/wolf-face/">Emojipedia: Wolf Face</a></p><p><a href="https://www.facebook.com/AudreyAdorable/timeline/">Audrey's Facebook page</a></p><p><a href="https://www.casa.gov.au/standard-page/fsa-issue-93-safety-–-no-laughing-matter-0">Civil Aviation Safety Authority Pre-flight Safety Video Study</a></p><p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/560008f7e4b05e6e3887b52b/1442842885379/I+Remember+Nothing.gif?format=750w">Watching a CGP Grey video</a></p><p><a href="https://www.reddit.com/r/CGPGrey/comments/3j391c/hi_46_superbowl_of_flags/cuoqpmk">xixoxixa on the reddit</a></p><p><a href="https://qph.is.quoracdn.net/main-qimg-92510694c29386035311e67193ceb82c?convert_to_webp=true">Fighter jet piddle packs</a></p><p><a href="https://www.youtube.com/watch?v=NhBBSfGtKn4&amp;feature=youtu.be">Brady's Dad: Climbing Nui Dat</a></p><p><a href="http://www.amazon.com/gp/product/B005PSUOFI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B005PSUOFI&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=623TKTL4GLJD57JW">Brady's Dad's Book: <em>Trackers</em></a></p><p>Grey's <a href="http://www.relay.fm/cortex">'other podcast...'</a></p><p><a href="http://googleblog.blogspot.co.uk/2015/09/google-update.html">Google's new logo</a></p><p><a href="https://duckduckgo.com">Duck Duck Go</a> (<a href="https://twitter.com/cgpgrey/status/639156725518630912">With dark mode!</a>)</p><p><a href="https://twitter.com/greyhealthbot">Grey Health Bot</a></p><p><a href="https://youtu.be/e0AJbu3QLiw?t=5m52s">Destin of Smarter Every Day in the shower</a></p><p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/56006065e4b08d112b6b8002/1442865256278/Fullsizerender.jpg?format=1500w">Brady's Crash Mail</a></p><p><a href="https://www.youtube.com/channel/UCtwKon9qMt5YLVgQt1tvJKg">Objectivity</a></p><p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/56000cebe4b03fabf999c760/1442843894187/?format=1500w">Grey's Japanese Alphabet Robots</a> (<a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/56000cc5e4b08aa6c7fa2d35/1442843861719/?format=1500w">The box</a>)</p><p><a href="https://en.wikipedia.org/wiki/Thylacine">Tasmanian Tiger</a></p><p><a href="https://en.wikipedia.org/wiki/Réunion">Réunion</a></p><p><a href="http://www.bradyharanblog.com/blog/2015/5/11/cgp-grey-the-penguin">CGP Grey Penguin</a></p><p><a href="https://en.wikipedia.org/wiki/California_grizzly_bear">California grizzly bear</a></p>]]></description>
+<p><a href="http://emojipedia.org/wolf-face/">Emojipedia: Wolf Face</a></p><p><a href="https://www.facebook.com/AudreyAdorable/timeline/">Audrey's Facebook page</a></p><p><a href="https://www.casa.gov.au/standard-page/fsa-issue-93-safety-–-no-laughing-matter-0">Civil Aviation Safety Authority Pre-flight Safety Video Study</a></p><p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/560008f7e4b05e6e3887b52b/1442842885379/I+Remember+Nothing.gif?format=750w">Watching a CGP Grey video</a></p><p><a href="https://www.reddit.com/r/CGPGrey/comments/3j391c/hi_46_superbowl_of_flags/cuoqpmk">xixoxixa on the reddit</a></p><p><a href="https://qph.is.quoracdn.net/main-qimg-92510694c29386035311e67193ceb82c?convert_to_webp=true">Fighter jet piddle packs</a></p><p><a href="https://www.youtube.com/watch?v=NhBBSfGtKn4&amp;feature=youtu.be">Brady's Dad: Climbing Nui Dat</a></p><p><a href="http://www.amazon.com/gp/product/B005PSUOFI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B005PSUOFI&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=623TKTL4GLJD57JW">Brady's Dad's Book: <em>Trackers</em></a></p><p>Grey's <a href="http://www.relay.fm/cortex">'other podcast...'</a></p><p><a href="http://googleblog.blogspot.co.uk/2015/09/google-update.html">Google's new logo</a></p><p><a href="https://duckduckgo.com">Duck Duck Go</a> (<a href="https://twitter.com/cgpgrey/status/639156725518630912">With dark mode!</a>)</p><p><a href="https://twitter.com/greyhealthbot">Grey Health Bot</a></p><p><a href="https://youtu.be/e0AJbu3QLiw?t=5m52s">Destin of Smarter Every Day in the shower</a></p><p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/56006065e4b08d112b6b8002/1442865256278/Fullsizerender.jpg?format=1500w">Brady's Crash Mail</a></p><p><a href="https://www.youtube.com/channel/UCtwKon9qMt5YLVgQt1tvJKg">Objectivity</a></p><p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/56000cebe4b03fabf999c760/1442843894187/?format=1500w">Grey's Japanese Alphabet Robots</a> (<a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/56000cc5e4b08aa6c7fa2d35/1442843861719/?format=1500w">The box</a>)</p><p><a href="https://en.wikipedia.org/wiki/Thylacine">Tasmanian Tiger</a></p><p><a href="https://en.wikipedia.org/wiki/Réunion">Réunion</a></p><p><a href="http://www.bradyharanblog.com/blog/2015/5/11/cgp-grey-the-penguin">CGP Grey Penguin</a></p><p><a href="https://en.wikipedia.org/wiki/California_grizzly_bear">California grizzly bear</a></p>
+ <p>Current New Zealand Flag:</p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1442867946065-VOUX1HCCLPLXMA2DY7CY/image-asset.png"/></p> <p><a href="https://www.govt.nz/browse/engaging-with-government/the-nz-flag-your-chance-to-decide/the-four-alternatives/koru/">Koru by Andrew Fyfe:</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1442867901111-03UL2CCDAQNK14KHCK5X/image-asset.png"/></p> <p><a href="https://www.govt.nz/browse/engaging-with-government/the-nz-flag-your-chance-to-decide/the-four-alternatives/silver-fern-red-white-and-blue/">Silver Fern (Red, White and Blue) by Kyle Lockwood:</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1442867869045-X50F5YT53ACRZTNTZ4ID/image-asset.png"/></p> <p><a href="https://www.govt.nz/browse/engaging-with-government/the-nz-flag-your-chance-to-decide/the-four-alternatives/silver-fern-black-and-white/">Silver Fern (Black &amp; White) by Alofi Kanter:</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1442867989890-858VZ71DCSFWS9S913BN/image-asset.png"/></p> <p><a href="https://www.govt.nz/browse/engaging-with-government/the-nz-flag-your-chance-to-decide/the-four-alternatives/silver-fern-black-white-and-blue/">Silver Fern (Black, White and Blue) by Kyle Lockwood:</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1442867855062-J901ZQ7I6B8NW7EWOJRR/image-asset.png"/></p> <p><a href="http://aotearoaflag.tumblr.com">Red Peak:</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1442867828149-4ZM737PRSZ8TFQ9ZMRLC/image-asset.png"/></p>      <p><a href="http://teespring.com/swamphen">Give Brady an inch...</a></p><p><a href="http://teespring.com/rice-rat">...and he'll take a mile</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/47.mp3</guid>
@@ -2947,7 +2996,8 @@
 <p><a href="http://www.bbc.co.uk/news/uk-34039229">Shoreham air crash</a></p>
 <p><a href="https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370">MH370</a></p>
 <p><a href="https://en.wikipedia.org/wiki/Flaperon">Flaperon</a></p>
-<p><a href="http://www.bbc.co.uk/news/world-europe-33746275">Volcano on Reunion</a></p>]]></description>
+<p><a href="http://www.bbc.co.uk/news/world-europe-33746275">Volcano on Reunion</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/46.mp3</guid>
@@ -2982,7 +3032,8 @@
 <p><a href="https://www.youtube.com/watch?v=bZnzmmAod3w">Brady brings J. Willgoose Esq from Public Service Broadcasting to the Royal Society</a></p>
 <p><a href="https://www.youtube.com/watch?v=BHIo6qwJarI">Public Service Broadcasting - Go!</a></p>
 <p><a href="http://www.amazon.com/Martian-Andy-Weir/dp/0553418025/ref=sr_1_1?ie=UTF8&amp;qid=1440167355&amp;sr=8-1&amp;keywords=the+martian"><em>The Martian</em></a></p>
-<p><a href="https://www.youtube.com/watch?v=ej3ioOneTy8"><em>The Martian</em> 'teaser' trailer</a></p>]]></description>
+<p><a href="https://www.youtube.com/watch?v=ej3ioOneTy8"><em>The Martian</em> 'teaser' trailer</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/45.mp3</guid>
@@ -3035,7 +3086,8 @@
 <p><a href="http://www.amazon.com/11-22-63-Stephen-King/dp/1451627297/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1439324984&amp;sr=1-1&amp;keywords=11+22+63">11/22/63</a></p>
 <p><a href="http://www.audible.com/pd/Teens/The-Golden-Compass-Audiobook/B002V1NG16/ref=a_search_c4_1_2_srTtl?qid=1439325133&amp;sr=1-2">His Dark Materials</a></p>
 <p><a href="http://www.amazon.com/gp/product/0553418025/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0553418025&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=AGGMVIZB5PSZ3DF2">Homework: The Martian</a></p>
-<p><a href="http://www.ebay.co.uk/itm/-/381359498903">The Cursed Cricket Tickets on eBay</a></p>]]></description>
+<p><a href="http://www.ebay.co.uk/itm/-/381359498903">The Cursed Cricket Tickets on eBay</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/44.mp3</guid>
@@ -3070,7 +3122,8 @@
 <p><a href="https://www.youtube.com/watch?v=zSZNsIFID28">Richard Feynman - Ode on a Flower</a></p>
 <p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/55a92a4be4b02a0223678686/1437149797233/bradygreycartoon.jpg?format=1500w&amp;storage=local">Brady makes a comic about Grey</a></p>
 <p><a href="https://www.google.com/search?q=Scarlett+Johansson&amp;client=safari&amp;rls=en&amp;biw=878&amp;bih=811&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0CAYQ_AUoAWoVChMI6c-0jcnixgIVwsyACh3P8Q0Y&amp;dpr=2">Scarlett Johansson</a></p>
-<p><a href="http://www.bannaughty.org">BanNaughty.org</a></p>]]></description>
+<p><a href="http://www.bannaughty.org">BanNaughty.org</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/43.mp3</guid>
@@ -3111,7 +3164,8 @@
 <p><a href="https://np.reddit.com/r/announcements/comments/39bpam/removing_harassing_subreddits/">Reddit discussion about banning subreddits</a></p>
 <p><a href="http://www.pewresearch.org/daily-number/positive-reaction-to-the-confederate-flag/">Pew Poll on Confederate Flag in 2011</a></p>
 <p><a href="https://www.youtube.com/watch?v=rE3j_RHkqJc">Grey: This Video Will Make You Angry</a></p>
-<p><a href="https://www.youtube.com/watch?v=ULBCuHIpNgU">Grey: This is Not The Confederate Flag</a></p>]]></description>
+<p><a href="https://www.youtube.com/watch?v=ULBCuHIpNgU">Grey: This is Not The Confederate Flag</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/42.mp3</guid>
@@ -3134,7 +3188,26 @@
 <p><a href="https://www.youtube.com/watch?v=7vsCAM17O-M">Grey: Digital Aristotle</a></p>
 <p><a href="https://www.youtube.com/watch?v=ilt0xvYnNXU">Brady: Official Sir Martyn</a></p>
 <p><a href="http://www.reddit.com/r/CGPGrey/comments/39616c/share_your_hi_flag_designs_here/">Hello Internet Flag designs</a></p>
-<p><a href="http://www.reddit.com/r/CGPGrey/comments/39616c/share_your_hi_flag_designs_here/cs0q569">Hello Internet State Flag</a></p>]]></description>
+<p><a href="http://www.reddit.com/r/CGPGrey/comments/39616c/share_your_hi_flag_designs_here/cs0q569">Hello Internet State Flag</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1435165638913-Z73UVUVOJLGNWWM2PFVH/image-asset.png"/></p><p><a href="http://www.reddit.com/r/CGPGrey/comments/39616c/share_your_hi_flag_designs_here/cs0rmh4">Four Lightbulbs flag</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1435165659288-K9UQZE6FGUFCIEKOYPUR/image-asset.png"/></p><p><a href="http://www.reddit.com/r/CGPGrey/comments/39616c/share_your_hi_flag_designs_here/cs267d2">Robot Arms and Club flag</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1435165678583-HAXJ8W60GZ2G6Q6YKDF2/image-asset.png"/></p><p><a href="http://www.reddit.com/r/CGPGrey/comments/39616c/share_your_hi_flag_designs_here/cs0tsfa">Soviet Hello Internet</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1435165694918-TKYTWS78GKAH7RMSHX3R/image-asset.png"/></p><p><a href="http://www.reddit.com/r/CGPGrey/comments/39616c/share_your_hi_flag_designs_here/cs16kn2">Maryland Hello Internet</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1435165709619-WHBJVT9HLN397WI73OYT/image-asset.jpeg"/></p><p><a href="http://www.reddit.com/r/CGPGrey/comments/39616c/share_your_hi_flag_designs_here/cs1zhsi">Republic of Audreyville</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1435165738705-G00M7JKXCC4L3I1G28TD/image-asset.jpeg"/></p><p><a href="http://www.amazon.com/gp/product/B00CUG26Z4/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00CUG26Z4&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=Z5WIC2MTGZL5WDGJ">Grey's electric toothbrush</a></p>
+<p><a href="https://goo.gl/YrInxX">Brady's Slow Watch</a></p>
+<p><a href="https://twitter.com/theslowwatch">Slow Watches on Twitter... (You know... in case you wanted to tweet them about... anything)</a></p>
+<p><a href="http://www.bradyharanblog.com/blog/2015/6/19/awaiting-a-slow-watch-deal">After the show, Brady continues with his Slow Watch plans</a></p>
+<p><a href="http://publicservicebroadcasting.net/#soundcloud">The Race for Space by Public Service Broadcasting</a></p>
+<p><a href="https://lifesum.com">LifeSum</a></p>
+<p><a href="https://www.youtube.com/watch?v=eTfm03T3VAE">MinutePhysics: Is Racewalking a Sport?</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Teeline_Shorthand">Teeline Shorthand</a></p>
+<p><a href="https://goo.gl/B6CqUI">Graffiti</a></p>
+<p><a href="http://www.reddit.com/r/CGPGrey/comments/395ydx/hi_39_getting_things_done/">Reddit GTD discussions</a></p>
+<p><a href="https://www.omnigroup.com">Omnigroup</a></p>
+<p><a href="https://www.youtube.com/watch?v=0r3cEKZiLmg">Brady: Mile of Pi</a></p>
+<p><a href="https://www.youtube.com/watch?v=ab_dY3dZFHM">Brady: Knight's Tour</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/41.mp3</guid>
@@ -3145,7 +3218,12 @@
     <item>
       <title>H.I. #40: The Oval Office of Science</title>
       <link>http://www.hellointernet.fm/podcast/40</link>
-      <description><![CDATA[<p>A <a href="https://www.youtube.com/watch?v=vP8u8hQ5r88">very special episode</a> this week as Brady and Grey go on a field trip to The Royal Society.  </p><h2>Brought To You By:</h2><p><a href="https://secure.backblaze.com/hellointernet">Backblaze: Online backup for $5/month</a></p><p><a href="http://igloosoftware.com/hello">Igloo: An intranet you'll actually like</a></p><p><a href="https://www.hover.com/?hellointernet">Hover: The best way to buy and manage domain names. Use coupon code 'Object' for 10% off.</a></p><p><a href="https://www.patreon.com/hellointernet?ty=h">Listeners like YOU on Patreon.</a></p><h2>Show Notes:</h2><p><a href="http://www.reddit.com/r/CGPGrey/comments/3a4sfx/hi_40_the_oval_office_of_science/"><strong>Discuss this episode.</strong></a></p><p><a href="https://www.youtube.com/watch?v=vP8u8hQ5r88">H.I. #40 on YouTube</a></p><p><a href="https://royalsociety.org">Royal Society</a></p><p><a href="https://www.youtube.com/watch?v=QE0DCaw7EDY">Brady meets Paul Nurse</a></p><p><a href="https://en.wikipedia.org/wiki/List_of_presidents_of_the_Royal_Society">Royal Society Presidents</a></p><p><a href="https://en.wikipedia.org/wiki/Earl_Grey_tea">Earl Grey tea</a></p><p><a href="http://www.historic-uk.com/HistoryMagazine/DestinationsUK/Giro-the-Nazi-Dog/">Giro the Nazi Dog</a></p><p><a href="https://en.wikipedia.org/wiki/Philosophiæ_Naturalis_Principia_Mathematica">Principia</a></p>]]></description>
+      <description><![CDATA[<p>A <a href="https://www.youtube.com/watch?v=vP8u8hQ5r88">very special episode</a> this week as Brady and Grey go on a field trip to The Royal Society.  </p><h2>Brought To You By:</h2><p><a href="https://secure.backblaze.com/hellointernet">Backblaze: Online backup for $5/month</a></p><p><a href="http://igloosoftware.com/hello">Igloo: An intranet you'll actually like</a></p><p><a href="https://www.hover.com/?hellointernet">Hover: The best way to buy and manage domain names. Use coupon code 'Object' for 10% off.</a></p><p><a href="https://www.patreon.com/hellointernet?ty=h">Listeners like YOU on Patreon.</a></p><h2>Show Notes:</h2><p><a href="http://www.reddit.com/r/CGPGrey/comments/3a4sfx/hi_40_the_oval_office_of_science/"><strong>Discuss this episode.</strong></a></p><p><a href="https://www.youtube.com/watch?v=vP8u8hQ5r88">H.I. #40 on YouTube</a></p><p><a href="https://royalsociety.org">Royal Society</a></p><p><a href="https://www.youtube.com/watch?v=QE0DCaw7EDY">Brady meets Paul Nurse</a></p><p><a href="https://en.wikipedia.org/wiki/List_of_presidents_of_the_Royal_Society">Royal Society Presidents</a></p><p><a href="https://en.wikipedia.org/wiki/Earl_Grey_tea">Earl Grey tea</a></p><p><a href="http://www.historic-uk.com/HistoryMagazine/DestinationsUK/Giro-the-Nazi-Dog/">Giro the Nazi Dog</a></p><p><a href="https://en.wikipedia.org/wiki/Philosophiæ_Naturalis_Principia_Mathematica">Principia</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1434519502816-IV4PJAUR712KYFQYM99Q/image-asset.jpeg"/></p><p><a href="https://www.youtube.com/watch?v=KmGVp8mLd6Q">Battered Flag (Brady’s earlier video)</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1434519550677-XOFX9IX1TTDYPT453AWX/image-asset.jpeg"/></p><p><a href="https://en.wikipedia.org/wiki/Matthew_Flinders">Matthew Flinders</a></p><p><a href="https://en.wikipedia.org/wiki/Adelaide">Adelaide</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1434519588346-X1XYTRQX7MN30V3ZXW8Q/image-asset.jpeg"/></p><p><a href="https://en.wikipedia.org/wiki/Backstairs_Passage">The Backstairs Passage</a></p><p><a href="http://www.jstor.org/stable/532098">Bogus curiosity</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1434519631218-C90I3VNAZXKOGGRGLOGF/image-asset.jpeg"/></p><p id="yui_3_17_2_3_1434519180014_12408"><a data-cke-saved-href="https://en.wikipedia.org/wiki/Catherine_Barton" href="https://en.wikipedia.org/wiki/Catherine_Barton">Catherine Conduit</a></p><p><a data-cke-saved-href="https://en.wikipedia.org/wiki/William_Thomson,_1st_Baron_Kelvin" href="https://en.wikipedia.org/wiki/William_Thomson,_1st_Baron_Kelvin">Lord Kelvin</a></p>
+<p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1434519658002-3M7DFGY82Z15VRNFNSB5/image-asset.jpeg"/></p><p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1434519684696-A9V2PA8W58D4WGZ1F2SF/image-asset.jpeg"/></p>]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/40.mp3</guid>
@@ -3180,7 +3258,8 @@
 <p><a href="http://www.amazon.com/gp/product/0143126563/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0143126563&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=JEVRQ6BGXUJ5IDAO"><em>Getting Things Done</em> by David Allen</a></p>
 <p><a href="http://en.wikipedia.org/wiki/The_Race_for_Space_%28album%29">Space album</a></p>
 <p>Grey's book notes: <a href="http://www.cgpgrey.com/blog/book-notes-creativity-inc-by-ed-catmull">Creativity Inc</a>, <a href="http://www.cgpgrey.com/blog/bird-by-bird">Bird by Bird</a></p>
-<p><a href="https://www.youtube.com/watch?v=SuhGwaZiNIk">Grey: Time Management for Teachers</a></p>]]></description>
+<p><a href="https://www.youtube.com/watch?v=SuhGwaZiNIk">Grey: Time Management for Teachers</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/39.mp3</guid>
@@ -3224,7 +3303,8 @@
 <p><a href="https://www.ted.com/talks/roman_mars_why_city_flags_may_be_the_worst_designed_thing_you_ve_never_noticed">Roman Mars TED Talk</a></p>
 <p><a href="http://99percentinvisible.org">99% Invisible</a></p>
 <p><a href="http://www.bbc.co.uk/news/business-32778196">Cashless</a></p>
-<p><a href="http://www.amazon.com/gp/product/0143126563/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0143126563&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=JEVRQ6BGXUJ5IDAO"><em>Getting Things Done</em> by David Allen</a></p>]]></description>
+<p><a href="http://www.amazon.com/gp/product/0143126563/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0143126563&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=JEVRQ6BGXUJ5IDAO"><em>Getting Things Done</em> by David Allen</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/38.mp3</guid>
@@ -3259,7 +3339,8 @@
 <p><a href="https://www.youtube.com/watch?v=Z092cRRxPNI">Grey signing time lapse</a></p>
 <p><a href="http://en.wikipedia.org/wiki/United_Kingdom_general_election,_2015">UK General election 2015</a></p>
 <p><a href="https://twitter.com/cgpgrey/status/596665514212069376">Grey's GE Pie chart</a></p>
-<p><a href="http://www.cgpgrey.com/politics-in-the-animal-kingdom/">Grey's alternatives to First Past the Post voting</a></p>]]></description>
+<p><a href="http://www.cgpgrey.com/politics-in-the-animal-kingdom/">Grey's alternatives to First Past the Post voting</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/37.mp3</guid>
@@ -3303,7 +3384,8 @@
 <p><a href="http://en.wikipedia.org/wiki/Rotary_dial">Rotary phone</a></p>
 <p><a href="https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/553fbf62e4b0ff4fc1812021/1430241131619/2015-04-28+--+Grey+Apple+Watch.jpg?format=1500w&amp;storage=local">Grey's (possibly temporary) Apple Watch</a></p>
 <p><a href="http://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/553fbfa1e4b0c0a0253219ec/1430241202319/?format=1500w">Brady's Omega Speedmaster</a></p>
-<p><a href="https://overcast.fm/+BgMWG43oY/1:49:26">H.I. #21: Cave Troll in Your Pocket</a></p>]]></description>
+<p><a href="https://overcast.fm/+BgMWG43oY/1:49:26">H.I. #21: Cave Troll in Your Pocket</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/36.mp3</guid>
@@ -3345,7 +3427,8 @@
 <p><a href="https://dl.dropboxusercontent.com/u/3476522/FTP/2015-04-13%20%E2%80%93%20apple%20watch.jpg">Trying on the Apple Watch</a></p>
 <p><a href="http://www.theverge.com/2015/4/8/8371131/youtube-paid-subscription-offline-video">YouTube's paid subscription offering take shape</a>  (<a href="https://www.reddit.com/r/CGPGrey/comments/324law/what_are_your_thoughts_on_youtubes_plan_to_have/">Discussion on the reddit</a>)</p>
 <p><a href="http://www.cgpgrey.com/cgp-grey-videos-itunes-rss">Grey's videos on <strong>RSS</strong> <em>and Apple</em></a></p>
-<p><a href="https://www.youtube.com/watch?v=T_gCnf9-qW0">Derek: How YouTube is like a potato</a></p>]]></description>
+<p><a href="https://www.youtube.com/watch?v=T_gCnf9-qW0">Derek: How YouTube is like a potato</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/35.mp3</guid>
@@ -3391,7 +3474,8 @@
 <p><a href="https://www.vessel.com/channels/veritasium">Derek on Vessel</a></p>
 <p><a href="https://www.vessel.com/shows/8344146446609449">Henry on Vessel</a></p>
 <p><a href="http://www.cgpgrey.com/email">Grey's email list</a></p>
-<p><a href="http://bradyharan.us8.list-manage.com/subscribe?u=cd8a14a6e9eca3619c75d3b82&amp;id=7c1b6a7e57">Brady's email list</a></p>]]></description>
+<p><a href="http://bradyharan.us8.list-manage.com/subscribe?u=cd8a14a6e9eca3619c75d3b82&amp;id=7c1b6a7e57">Brady's email list</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/34.mp3</guid>
@@ -3437,7 +3521,8 @@
 <p><a href="https://www.youtube.com/user/minutephysics">Henry</a></p>
 <p><a href="https://www.youtube.com/user/destinws2">Destin</a></p>
 <p><a href="http://www.amazon.com/s/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;field-keywords=red%20mars&amp;linkCode=ur2&amp;tag=hellinte-20&amp;url=search-alias%3Daps&amp;linkId=25J5PC46T46EX24H">Red Mars</a></p>
-<p><a href="http://www.amazon.com/gp/product/B00567DD4C/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00567DD4C&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=GBDSZXDBVVX55CFY">Mission to Mars</a></p>]]></description>
+<p><a href="http://www.amazon.com/gp/product/B00567DD4C/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00567DD4C&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=GBDSZXDBVVX55CFY">Mission to Mars</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/33.mp3</guid>
@@ -3466,7 +3551,8 @@
 <p><a href="http://redlettermedia.com/plinkett/star-wars/">Red Letter Media Star Wars Reviews</a></p>
 <p><a href="http://davidsimon.com/the-wire-hd-with-videos/">David Simon on The Wire in HD</a></p>
 <p><a href="https://www.youtube.com/user/vlogbrothers">Vlogbrothers</a></p>
-<p><a href="https://www.youtube.com/user/wheezywaiter">Wheezy Waiter</a></p>]]></description>
+<p><a href="https://www.youtube.com/user/wheezywaiter">Wheezy Waiter</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/32.mp3</guid>
@@ -3501,7 +3587,8 @@
 <p><a href="http://www.latimes.com/nation/la-na-selfie-plane-crash-colorado-20150203-story.html">Selfie plane crash</a></p>
 <p><a href="http://i2.cdn.turner.com/cnn/2015/images/02/03/ntsb.report.pdf">Baby's first NTSB</a></p>
 <p><a href="https://www.aaafoundation.org/sites/default/files/MeasuringCognitiveDistractions.pdf">Distracted driving</a></p>
-<p><a href="https://www.youtube.com/watch?v=_BqFkRwdFZ0">"From One Second To The Next" A Film By Werner Herzog - It Can Wait</a></p>]]></description>
+<p><a href="https://www.youtube.com/watch?v=_BqFkRwdFZ0">"From One Second To The Next" A Film By Werner Herzog - It Can Wait</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/31.mp3</guid>
@@ -3555,7 +3642,8 @@
 <p><a href="http://store.dftba.com/products/hello-internet-shirt">Hello Internet T-Shirts</a></p>
 <p><a href="https://www.patreon.com/hellointernet">Hello Internet on Patreon</a></p>
 <p><a href="http://store.dftba.com/products/the-professor-shirt">Periodic Videos Shirt</a></p>
-<p><a href="http://store.dftba.com/products/cgp-grey-logo-shirt">CGP Grey Shirt</a></p>]]></description>
+<p><a href="http://store.dftba.com/products/cgp-grey-logo-shirt">CGP Grey Shirt</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/30.mp3</guid>
@@ -3586,7 +3674,8 @@
 <p><a href="http://en.wikipedia.org/wiki/Keyboard_technology">Keyboard Technology</a></p>
 <p><a href="https://twitter.com/cgpgrey/status/553156046026731520">Grey's Keyboard</a></p>
 <p><a href="http://www.wasdkeyboards.com/">WASD Keyboards</a></p>
-<p><a href="http://serialpodcast.org">Serial Podcast</a></p>]]></description>
+<p><a href="http://serialpodcast.org">Serial Podcast</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/29.mp3</guid>
@@ -3608,7 +3697,8 @@
 <p><a href="http://www.nobelprize.org/nobel_prizes/physics/laureates/1965/feynman-speech.html">Richard Feynman Nobel Prize acceptance speech</a></p>
 <p><a href="http://en.wikipedia.org/wiki/Indonesia_AirAsia_Flight_8501">Indonesia AirAsia Flight 8501</a></p>
 <p><a href="http://www.cgpgrey.com/blog/hello-internet-editing-time-lapse">How Hello Internet is Edited</a></p>
-<p><a href="https://www.youtube.com/c/objectivityvideos">Objectivity</a></p>]]></description>
+<p><a href="https://www.youtube.com/c/objectivityvideos">Objectivity</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/28.mp3</guid>
@@ -3669,7 +3759,8 @@
 <p><a href="https://www.youtube.com/user/CGPGrey">Sauroman the Grey</a></p>
 <p><a href="https://www.youtube.com/user/minutephysics">The Blue</a> <a href="https://www.youtube.com/user/1veritasium">Wizards</a></p>
 <p><a href="https://www.youtube.com/user/destinws2">Gandalf the White</a></p>
-<p><a href="https://www.youtube.com/user/BradyStuff">Radagast the Brown</a></p>]]></description>
+<p><a href="https://www.youtube.com/user/BradyStuff">Radagast the Brown</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/27.mp3</guid>
@@ -3714,7 +3805,8 @@
 <p><a href="https://www.youtube.com/watch?v=erLk59H86ww">Star Wars: The Force Awakens</a></p>
 <p><a href="https://www.youtube.com/watch?v=plwVRYEQG_I">Fake Star Wars Trailer</a></p>
 <p><a href="http://www.hollywoodreporter.com/heat-vision/star-wars-episode-vii-cast-photo-699701">Star Wars cast photo</a></p>
-<p><a href="http://static.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/548b1077e4b092fbeab3b8b2/1418399864313/?format=1000w">Brady having dinner with Darth Vader</a></p>]]></description>
+<p><a href="http://static.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/548b1077e4b092fbeab3b8b2/1418399864313/?format=1000w">Brady having dinner with Darth Vader</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/26.mp3</guid>
@@ -3754,7 +3846,8 @@
 <p><a href="http://rocketcenter.com">U.S. Space and Rocket Center</a></p>
 <p><a href="https://pbs.twimg.com/media/B2fYytbIQAASV7P.jpg">Signed iPhone</a></p>
 <p><a href="http://www.cgpgrey.com/blog/faceless-voices">Faceless Voices</a></p>
-<p><a href="https://www.youtube.com/watch?v=0r3cEKZiLmg">Mile of Pi</a></p>]]></description>
+<p><a href="https://www.youtube.com/watch?v=0r3cEKZiLmg">Mile of Pi</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/25.mp3</guid>
@@ -3812,7 +3905,8 @@
 <p><a href="https://www.youtube.com/watch?v=7Pq-S557XQU">Grey: Humans Need Not Apply</a></p>
 <p><a href="https://en.wikipedia.org/wiki/United_Kingdom_Alternative_Vote_referendum,_2011">United Kingdom Alternative Vote referendum, 2011</a></p>
 <p><a href="http://www.amazon.com/gp/product/B008ODK68Q/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B008ODK68Q&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=HFCO7G5N5H4HPSJ7">Boss</a></p>
-<p><a href="http://en.wikipedia.org/wiki/Compulsory_voting">Compulsory voting</a></p>]]></description>
+<p><a href="http://en.wikipedia.org/wiki/Compulsory_voting">Compulsory voting</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/24.mp3</guid>
@@ -3861,7 +3955,8 @@
 <p><a href="https://www.youtube.com/watch?v=99Welatppzk">The Making of a Mile of Pi</a></p>
 <p><a href="https://www.youtube.com/watch?v=nEBujc_JaE4">Mile of Pi Music Montage (Grey's favorite)</a></p>
 <p><a href="http://standupmaths.com/">Matt Parker</a></p>
-<p><a href="https://static.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/544ff5a7e4b0b7e85ed406ce/1414526387181/">Brady at Plane Crash Corner</a></p>]]></description>
+<p><a href="https://static.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/544ff5a7e4b0b7e85ed406ce/1414526387181/">Brady at Plane Crash Corner</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/23.mp3</guid>
@@ -3909,7 +4004,8 @@
 <p><a href="http://www.hellointernet.fm/podcast/16">H.I. #16: The Worst Topic for a Podcast</a></p>
 <p><a href="http://www.kwikset.com/kevo/default.aspx#.VDgwJhPF9BM">iPhone as your key</a></p>
 <p><a href="https://www.youtube.com/watch?v=rMY0NgKXtCA">⌘X 22.1</a></p>
-<p><a href="https://www.youtube.com/watch?v=CB3USf8xnTw">⌘X 22.2</a></p>]]></description>
+<p><a href="https://www.youtube.com/watch?v=CB3USf8xnTw">⌘X 22.2</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/22.mp3</guid>
@@ -3968,7 +4064,8 @@
 <p><a href="https://itunes.apple.com/app/remember-the-milk/id293561396?mt=8&amp;uo=4&amp;at=11l5Fy">Remember the Milk</a></p>
 <p><a href="http://daringfireball.net/2014/09/apple_watch">Daring Fireball: Apple Watch Initial Thoughts and Observations</a></p>
 <h2 id="listen">Listen:</h2>
-<p><a href="http://www.hellointernet.fm/itunes">Subscribe via iTunes</a>, <a href="http://feeds.podtrac.com/rZy85ymZYZc$">Subscribe via RSS</a></p>]]></description>
+<p><a href="http://www.hellointernet.fm/itunes">Subscribe via iTunes</a>, <a href="http://feeds.podtrac.com/rZy85ymZYZc$">Subscribe via RSS</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/21.mp3</guid>
@@ -3981,7 +4078,35 @@
       <link>http://www.hellointernet.fm/podcast/20</link>
       <description><![CDATA[<p>Grey &amp; Brady on the season finale talk about greycations, training your dog, alternative medicine, monkey copyright, monkey art, the great monkey renaissance of the 1960s, autos revisited, the ice bucket challenge, Scottish Independence, Black Mirror and Charlie Brooker.</p>
 <p><strong>Spoiler warnings:</strong> for <a href="http://www.amazon.co.uk/gp/product/B006B893B2/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B006B893B2&amp;linkCode=as2&amp;tag=hellinte-21">Black Mirror: The National Anthem, Black Mirror: Fifteen Million Merits</a></p>
-<p><strong><a href="http://store.dftba.com/products/hello-internet-shirt">Hello Internet T-Shirts Now Available</a></strong></p>]]></description>
+<p><strong><a href="http://store.dftba.com/products/hello-internet-shirt">Hello Internet T-Shirts Now Available</a></strong></p>
+ <p><img alt="" src="https://images.squarespace-cdn.com/content/v1/52d66949e4b0a8cec3bcdd46/1410198492016-3EWW17GOECTP8UB6GFRM/image-asset.jpeg"/></p> <h2 id="broughttoyouby">Brought to You By:</h2>
+<p><a href="http://www.audible.com/hellointernet">Audible.com: Get a free audiobook by signing up at www.audible.com/hellointernet</a></p>
+<p><a href="http://www.squarespace.com/hellointernet">Squarespace: Use code HELLOINTERNET for 10% off your website.</a></p>
+<h2 id="shownotes">Show Notes:</h2>
+<p><strong><a href="http://www.reddit.com/r/CGPGrey/comments/2ftuby/hi_20_reverse_finger_trap/">Discuss this episode</a></strong></p>
+<p><a href="http://www.bettys.co.uk/bettys_york.aspx">Betty's</a></p>
+<p><a href="http://jorvik-viking-centre.co.uk/">York's Viking Museum</a></p>
+<p><a href="https://www.youtube.com/watch?v=s84dBopsIe4&amp;list=UURwr1kxjL-8m1L6mQXB2zSQ">Chihuahua Bubbles - Some Cute Slow Motion</a></p>
+<p><a href="https://www.youtube.com/watch?v=oZvNRpmwwWA&amp;list=UURwr1kxjL-8m1L6mQXB2zSQ">Audrey the Chihuahua Puppy</a></p>
+<p><a href="http://en.wikipedia.org/wiki/Animal-made_art">Animal-made art</a></p>
+<p><a href="http://en.wikipedia.org/wiki/Monkeys_and_apes_in_space">Monkeys and apes in space</a></p>
+<p><a href="http://www.amazon.com/gp/product/B001700MMI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B001700MMI&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=AC6AFPUDX6TQAGWI">The Dog Whisperer</a></p>
+<p><a href="http://en.wikipedia.org/wiki/Cesar_Millan">Cesar Millan</a></p>
+<p><a href="https://www.youtube.com/watch?v=7Pq-S557XQU#t=333">Autos</a></p>
+<p><a href="http://en.wikipedia.org/wiki/Ice_Bucket_Challenge">Ice bucket challenge</a></p>
+<p><a href="http://www.alsa.org/fight-als/ice-bucket-challenge.html">ALS ice bucket challenge</a></p>
+<p><a href="http://en.wikipedia.org/wiki/Chinese_finger_trap">Chinese finger trap</a></p>
+<p><a href="https://www.youtube.com/watch?v=oVfHeWTKjag">Derek: Facebook Fraud</a></p>
+<p><a href="https://www.youtube.com/watch?v=l9ZqXlHl65g">Derek: The Problem with Facebook</a></p>
+<p><a href="http://en.wikipedia.org/wiki/Scottish_independence_referendum,_2014">Scottish Independence</a></p>
+<p><a href="http://www.amazon.co.uk/gp/product/B006B893B2/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B006B893B2&amp;linkCode=as2&amp;tag=hellinte-21">Black Mirror</a></p>
+<p><a href="http://www.cracked.com/article_18817_5-reasons-future-will-be-ruled-by-b.s..html">David Wong: 5 Reasons The Future Will Be Ruled By B.S.</a></p>
+<p><a href="http://www.earwolf.com/show/the-cracked-podcast/">Cracked Podcast</a></p>
+<p><a href="http://goo.gl/lxSKAI">The X-factor</a></p>
+<p><a href="http://www.youtube.com/watch?v=B63ahmTAesM">Newswipe with Charlie Brooker</a></p>
+<h2 id="listen">Listen:</h2>
+<p><a href="http://www.hellointernet.fm/itunes">Subscribe via iTunes</a>, <a href="http://feeds.podtrac.com/rZy85ymZYZc$">Subscribe via RSS</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/20.mp3</guid>
@@ -4011,7 +4136,8 @@
 <p><a href="http://en.wikipedia.org/wiki/Artificial_neural_network">Artificial Neural Networks</a></p>
 <p>Also: <a href="http://www.amazon.com/gp/product/B008M0P9I8/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B008M0P9I8&amp;linkCode=as2&amp;tag=hellinte-20">you still have homework</a>.  Blame Grey.  </p>
 <h2 id="listen">Listen:</h2>
-<p><a href="http://www.hellointernet.fm/itunes">Subscribe via iTunes</a>, <a href="http://feeds.podtrac.com/rZy85ymZYZc$">Subscribe via RSS</a></p>]]></description>
+<p><a href="http://www.hellointernet.fm/itunes">Subscribe via iTunes</a>, <a href="http://feeds.podtrac.com/rZy85ymZYZc$">Subscribe via RSS</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/19.mp3</guid>
@@ -4061,7 +4187,8 @@
 <p><strong>Homework</strong> <a href="http://www.amazon.com/gp/product/B008M0P9I8/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B008M0P9I8&amp;linkCode=as2&amp;tag=hellinte-20">Black Mirror Season 1</a>, <a href="http://www.amazon.com/gp/product/B00FKGOQWW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00FKGOQWW&amp;linkCode=as2&amp;tag=hellinte-20">Season 2</a>.  (<a href="http://www.amazon.co.uk/gp/product/B006B893B2/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B006B893B2&amp;linkCode=as2&amp;tag=hellinte-21">UK link for Season 1</a>, <a href="http://www.amazon.co.uk/gp/product/B00BC36URQ/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B00BC36URQ&amp;linkCode=as2&amp;tag=hellinte-21">Season 2</a>)</p>
 <p><a href="https://www.youtube.com/watch?v=7Pq-S557XQU">Grey's video teased at the end</a></p>
 <h2 id="listen">Listen:</h2>
-<p><a href="http://www.hellointernet.fm/itunes">Subscribe via iTunes</a>, <a href="http://feeds.podtrac.com/rZy85ymZYZc$">Subscribe via RSS</a></p>]]></description>
+<p><a href="http://www.hellointernet.fm/itunes">Subscribe via iTunes</a>, <a href="http://feeds.podtrac.com/rZy85ymZYZc$">Subscribe via RSS</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/18.mp3</guid>
@@ -4092,7 +4219,8 @@
 <p><a href="http://www.amazon.com/gp/product/B001HOZWUG/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B001HOZWUG&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=CCN76X7EK62OTB5O">The Happening</a></p>
 <p><a href="https://itunes.apple.com/us/movie/short-circuit/id279012559?mt=8&amp;uo=4&amp;at=11l5Fy">Short Circuit</a></p>
 <h2 id="listen">Listen:</h2>
-<p><a href="http://www.hellointernet.fm/itunes">Subscribe via iTunes</a>, <a href="http://feeds.podtrac.com/rZy85ymZYZc$">Subscribe via RSS</a></p>]]></description>
+<p><a href="http://www.hellointernet.fm/itunes">Subscribe via iTunes</a>, <a href="http://feeds.podtrac.com/rZy85ymZYZc$">Subscribe via RSS</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/17.mp3</guid>
@@ -4127,7 +4255,8 @@
 <p><a href="https://itunes.apple.com/us/app/democracy-3/id882525717?mt=8&amp;uo=4&amp;at=11l5Fy">Democracy 3</a></p>
 <p><a href="http://www.escapistmagazine.com/videos/view/zero-punctuation/6492-Medal-of-Honor-Warfighter-Doom-3-BFG-Edition">Call-of-Duty style games</a></p>
 <p><strong>Homework:</strong> <a href="http://www.amazon.com/gp/product/B00KATY250/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00KATY250&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=YBOWH2LBHMLD6YFH">Her</a></p>
-<p><a href="http://www.hellointernet.fm/support/">Hello Internet Amazon links</a></p>]]></description>
+<p><a href="http://www.hellointernet.fm/support/">Hello Internet Amazon links</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/16.mp3</guid>
@@ -4161,7 +4290,8 @@
 <p><a href="http://www.amazon.com/gp/product/B00062IDDS/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00062IDDS&amp;linkCode=as2&amp;tag=hellinte-20&amp;linkId=A3MY62FJU6ZGPJTQ">Star Trek Voyager</a></p>
 <p><a href="https://www.youtube.com/user/HelloInternetPodcast">Hello Internet on YouTube</a></p>
 <p><a href="https://www.youtube.com/watch?v=yq-HVi97NiQ&amp;list=PLe_b-HAZD1pWd4MBBaFP_6GJhVBn82dDQ">⌘X: WWDC</a></p>
-<p><a href="https://www.youtube.com/watch?v=wBU9N35ZHIw&amp;list=UUoxcjq-8xIDTYp3uz647V5A">Brady's viral cake video</a></p>]]></description>
+<p><a href="https://www.youtube.com/watch?v=wBU9N35ZHIw&amp;list=UUoxcjq-8xIDTYp3uz647V5A">Brady's viral cake video</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/15.mp3</guid>
@@ -4194,7 +4324,8 @@
 <p><a href="https://www.youtube.com/watch?v=PM79Epw_cp8&amp;list=PLqs5ohhass_QZtSkX06DmWOaEaadwmw_D">Your Family Tree Explained</a></p>
 <p><a href="https://www.youtube.com/watch?v=7u6kFlWZOWg">Brady Explains the Monty Hall problem</a></p>
 <p><a href="https://www.youtube.com/watch?v=xdiL-ADRTxQ">Friends and Strangers Theorem</a></p>
-<p><a href="http://www.reddit.com/r/CGPGrey/comments/27a9yn/your_family_tree_explained/chyuqw5">Discussion on the reddit about passing on your name</a></p>]]></description>
+<p><a href="http://www.reddit.com/r/CGPGrey/comments/27a9yn/your_family_tree_explained/chyuqw5">Discussion on the reddit about passing on your name</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/14.mp3</guid>
@@ -4226,7 +4357,8 @@
 <p><a href="https://www.youtube.com/watch?v=B3u4EFTwprM&amp;feature=kp">Capitalism and Socialism: Crash Course World History #33</a></p>
 <p><a href="https://www.youtube.com/watch?v=vo4pMVb0R6M&amp;index=2&amp;list=PL8dPuuaLjXtOPRKzVLY0jJY-uHOH9KVU6">Hank Green Crash Course Psychology</a></p>
 <p><a href="https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q">Kurzgesagt</a></p>
-<p><a href="http://www.earwolf.com/show/the-cracked-podcast/">Cracked.com Podcast</a></p>]]></description>
+<p><a href="http://www.earwolf.com/show/the-cracked-podcast/">Cracked.com Podcast</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/13.mp3</guid>
@@ -4269,7 +4401,8 @@
 <p><a href="http://www.youtube.com/watch?v=uw-4pMdbbmg&amp;feature=youtube_gdata">Kevin Gisi on Net Neutrality</a></p>
 <p><a href="http://en.wikipedia.org/wiki/Tom_Wheeler">Tom Wheeler FCC chairman</a></p>
 <p><a href="http://goo.gl/xHnB4n">FCC petition</a></p>
-<p><a href="http://www.jthtl.org/content/articles/V2I1/JTHTLv2i1_Wu.PDF">Tim Wu 2003 Network Neutrality, Broadband Discrimination</a></p>]]></description>
+<p><a href="http://www.jthtl.org/content/articles/V2I1/JTHTLv2i1_Wu.PDF">Tim Wu 2003 Network Neutrality, Broadband Discrimination</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/12.mp3</guid>
@@ -4305,7 +4438,8 @@
 <p><a href="http://www.washingtonpost.com/sf/national/2014/03/22/sinkhole-of-bureaucracy/">Washington Post: Sinkhole of bureaucracy</a></p>
 <p><a href="http://www.amazon.com/gp/product/B00D6C0D42/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00D6C0D42&amp;linkCode=as2&amp;tag=hiintfm-20">Brazil</a></p>
 <p><a href="http://www.buzzfeed.com/gregorydjohnsen/60-words-and-a-war-without-end-the-untold-story-of-the-most">60 Words And A War Without End: The Untold Story Of The Most Dangerous Sentence In U.S. History</a></p>
-<p><a href="http://www.radiolab.org/story/60-words/">Buzzfeed &amp; RadioLab</a></p>]]></description>
+<p><a href="http://www.radiolab.org/story/60-words/">Buzzfeed &amp; RadioLab</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/11.mp3</guid>
@@ -4335,7 +4469,8 @@
 <p><a href="http://www.cgpgrey.com/recommended-listening">Grey's recommended podcasts</a></p>
 <p><a href="https://www.youtube.com/watch?v=YBbBbY4qvv4">Numbers Confuse Americans</a></p>
 <p><a href="http://www.muleradio.net/thetalkshow/">The Talk Show</a></p>
-<p><a href="http://atp.fm/">Accidental Tech Podcast</a></p>]]></description>
+<p><a href="http://atp.fm/">Accidental Tech Podcast</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/1020Two20Dudes20Talking.mp3</guid>
@@ -4363,7 +4498,8 @@
 <p><a href="http://www.amazon.com/gp/product/B00ISJS48U/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00ISJS48U&amp;linkCode=as2&amp;tag=hiintfm-20">The Desolation Of Smaug</a></p>
 <p><a href="http://online.wsj.com/news/articles/SB10001424052748704281204575002852055561406">11 Minutes of Action in the Super Bowl</a></p>
 <p><a href="https://dl.dropboxusercontent.com/u/3476522/FTP/Brady%27s%20House.jpg">Brady's House</a></p>
-<p><a href="http://econlog.econlib.org/archives/2014/02/why_the_college.html">What Bad Students Know that Good Economists Don't by Bryan Caplan</a></p>]]></description>
+<p><a href="http://econlog.econlib.org/archives/2014/02/why_the_college.html">What Bad Students Know that Good Economists Don't by Bryan Caplan</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/9.mp3</guid>
@@ -4392,7 +4528,8 @@
 <p><a href="http://www.youtube.com/user/sixtysymbols">Sixty Symbols</a></p>
 <p><a href="http://www.youtube.com/watch?v=4IlBNJbCzfk">A Polarizing Discovery About the Big Bang</a></p>
 <p><a href="https://en.wikipedia.org/wiki/Cricket_(insect)">Cricket</a></p>
-<p><a href="http://www.cgpgrey.com/blog/hello-internet-3-four-light-bulbs">Hello Internet #3</a></p>]]></description>
+<p><a href="http://www.cgpgrey.com/blog/hello-internet-3-four-light-bulbs">Hello Internet #3</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/8.mp3</guid>
@@ -4420,7 +4557,8 @@
 <p><a href="http://qz.com/142199/the-us-needs-to-retire-daylight-savings-and-just-have-two-time-zones-one-hour-apart/">How to make the US into two time zones</a></p>
 <p><a href="http://www.fiatlux.fm/pragmatic/11">Pragmatic: Cause and Effect</a></p>
 <p><a href="http://www.youtube.com/watch?v=GOiIxqcbzyM">Q&amp;A with Grey video</a></p>
-<p><a href="http://freakonomics.com/2014/03/06/is-learning-a-foreign-language-really-worth-it-a-new-freakonomics-radio-podcast/">Is Learning a Foreign Language Really Worth It?</a></p>]]></description>
+<p><a href="http://freakonomics.com/2014/03/06/is-learning-a-foreign-language-really-worth-it-a-new-freakonomics-radio-podcast/">Is Learning a Foreign Language Really Worth It?</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/7.mp3</guid>
@@ -4440,7 +4578,8 @@
 <p><a href="http://www.reddit.com/r/pics/comments/1ri5ot/there_are_a_lot_of_beautiful_homes_this_one_is/">A Beautiful Home</a></p>
 <p><a href="http://www.cgpgrey.com/mountain-house-clutter">All the pointless crap in the above</a></p>
 <p><a href="https://www.youtube.com/watch?v=z9UjeTMb3Yk">Merlin Mann's Inbox Zero talk</a></p>
-<p><a href="https://itunes.apple.com/gb/app/drafts-for-ipad-quickly-capture/id542797283?mt=8&amp;uo=4&amp;at=11l5Fy">Drafts for iPad / iPhone</a></p>]]></description>
+<p><a href="https://itunes.apple.com/gb/app/drafts-for-ipad-quickly-capture/id542797283?mt=8&amp;uo=4&amp;at=11l5Fy">Drafts for iPad / iPhone</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/6.mp3</guid>
@@ -4465,7 +4604,8 @@
 <p><a href="https://itunes.apple.com/gb/app/omnifocus/id402835630?mt=8&amp;uo=4&amp;at=11l5Fy">Omnifocus</a></p>
 <p><a href="http://www.amazon.com/gp/product/B0054JJ0QW/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0054JJ0QW&amp;linkCode=as2&amp;tag=hiintfm-20">Bose QuietComfort 15 Acoustic Noise Cancelling Headphones</a></p>
 <p><a href="http://www.flickr.com/photos/tonydemarco/sets/72157600075508212/">São Paulo no billboards</a></p>
-<p><a href="http://www.amusingplanet.com/2013/05/art-and-decor-of-moscow-metro-stations.html">Moscow Metro</a></p>]]></description>
+<p><a href="http://www.amusingplanet.com/2013/05/art-and-decor-of-moscow-metro-stations.html">Moscow Metro</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/5.mp3</guid>
@@ -4495,7 +4635,8 @@
 <p><a href="http://www.youtube.com/user/1veritasium">Derek of Veritasium</a></p>
 <p><a href="http://www.deathbulge.com/#/comics/155">Deathbulge Comic 155</a></p>
 <p><a href="http://www.zefrank.com/theshow/">The Show with ZeFrank</a></p>
-<p><a href="http://www.youtube.com/watch?v=N5fXtThdR8I">ZeFrank on comments</a></p>]]></description>
+<p><a href="http://www.youtube.com/watch?v=N5fXtThdR8I">ZeFrank on comments</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/HI20420--20Feedback20on20Feedback.mp3</guid>
@@ -4515,7 +4656,8 @@
 <p><a href="http://www.reddit.com/r/CGPGrey/comments/1xmsvz/hi_3_four_light_bulbs/">Discuss this episode on reddit</a></p>
 <p><a href="http://www.hellointernet.fm/topic-suggestions">Suggest topics for H.I.</a></p>
 <p><a href="http://www.youtube.com/watch?v=PCu_BNNI5x4">Grandi's Series and Thomson's Lamp</a></p>
-<p><a href="https://subbable.com/cgpgrey">CGP Grey Subbable</a></p>]]></description>
+<p><a href="https://subbable.com/cgpgrey">CGP Grey Subbable</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/HI20320--20Four20Light20Bulbs.mp3</guid>
@@ -4545,7 +4687,8 @@
 <p><a href="http://lmgtfy.com/?q=Star+Wars+Despecialized+Edition">Star Wars Despecialized Edition</a></p>
 <p><a href="http://www.amazon.com/gp/product/B005PXQUC4/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B005PXQUC4&amp;linkCode=as2&amp;tag=hiintfm-20">The People Vs. George Lucas</a></p>
 <p><a href="http://en.wikipedia.org/wiki/Zapruder_film">The Zapruder film</a></p>
-<p><a href="http://www.ted.com/talks/johanna_blakley_lessons_from_fashion_s_free_culture.html">Johanna Blakley: Lessons from fashion's free culture</a></p>]]></description>
+<p><a href="http://www.ted.com/talks/johanna_blakley_lessons_from_fashion_s_free_culture.html">Johanna Blakley: Lessons from fashion's free culture</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/HI20220--20Copyright20Not20Intended.mp3</guid>
@@ -4563,7 +4706,8 @@
 <h2 id="relevantlinks">Relevant Links:</h2>
 <p><a href="http://www.cgpgrey.com/blog/the-united-kingdom-venn-diagram.html">List of the mistakes in Grey's UK video</a></p>
 <p><a href="http://www.reddit.com/r/CGPGrey/comments/1x3guw/hello_internet_a_10_episode_podcast_experiment/">Discuss this episode on reddit</a></p>
-<p><a href="http://www.hellointernet.fm/topic-suggestions">Suggest future topics for H.I.</a></p>]]></description>
+<p><a href="http://www.hellointernet.fm/topic-suggestions">Suggest future topics for H.I.</a></p>
+]]></description>
       <itunes:author>Hello Internet</itunes:author>
       <dc:creator>Hello Internet</dc:creator>
       <guid isPermaLink="false">http://traffic.libsyn.com/hellointernet/HI201.mp3</guid>

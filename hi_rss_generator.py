@@ -103,22 +103,35 @@ def generate_episode(episode_info, media_location=None):
     episode_link = soup.find("meta", itemprop="url")["content"]
     episode_datePublished = soup.find("meta", itemprop="datePublished")["content"]
 
-    sqs_block_content_object = soup.find(
-        "div", class_="sqs-block markdown-block sqs-block-markdown"
+    # Find the top-level container
+    body_content = soup.find(
+        "div", class_="body entry-content"
     )
 
-    # NOTE: Some episodes don't have a "qs-block markdown-block sqs-block-markdown" item
-    # and instead have "sqs-block html-block sqs-block-html", so...
-    if sqs_block_content_object is None:
-        sqs_block_content_object = soup.find(
-            "div", class_="sqs-block html-block sqs-block-html"
-        )
-
-    # Grab the episode description using the "undocumented" decode_contents() method,
-    # which returns ONLY the data inside the "div" block, which is what we want.
-    episode_content = sqs_block_content_object.find(
+    # Within the body_content, find ALL instances of "sqs-block-content",
+    # which are the individual meaningful content blocks.
+    blocks = body_content.find_all(
         "div", class_="sqs-block-content"
-    ).decode_contents()
+    )
+
+    # Initialize the episode_content string; we will append the content of each
+    # content block within body_content.
+    episode_content = ""
+
+    # Traverse each block and extract the actual content within
+    for block in blocks:
+      # Skip the audio block from the episode_content
+      if block.find("div", class_="sqs-audio-embed"):
+        continue
+      # If there is a "noscript" node within the current block, add a set of
+      # <p></p> tags around its content and append it to episode_content.
+      noscript_block = block.find("noscript")
+      if noscript_block:
+        episode_content += f"<p>{noscript_block.decode_contents()}</p>"
+      else:
+        # Grab the actual content using the "undocumented" decode_contents() method,
+        # which returns ONLY the data inside the "div" block, which is what we want.
+        episode_content += block.decode_contents()
 
     # Now get the audio object information
     sqs_audio_embed_object = soup.find("div", class_="sqs-audio-embed").attrs
