@@ -58,10 +58,10 @@ jobs:
           echo "FIRST_EPISODE_INDEX=${{github.event.inputs.first_episode_index || env.DEFAULT_FIRST_EPISODE_INDEX}}" >> $GITHUB_ENV
           echo "LAST_EPISODE_INDEX=${{github.event.inputs.last_episode_index || env.DEFAULT_LAST_EPISODE_INDEX}}" >> $GITHUB_ENV
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Set up Python 3.10
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: "3.10"
 
@@ -78,7 +78,7 @@ jobs:
               -l ${{env.LAST_EPISODE_INDEX}}"
 
       - name: Archive generated RSS feed
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: rss-feed
           path: ${{env.OUTPUT_FILE}}
