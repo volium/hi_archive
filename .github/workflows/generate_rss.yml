@@ -61,7 +61,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Set up Python 3.10
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
@@ -85,26 +85,25 @@ jobs:
           if-no-files-found: error
 
       # Uses parse_rss.py to read the xml file and transform it into a json file, which is then fed to "jq"
-      # NOTE: We force "bash" shell to make sure any errors propagate correctly when piping commands
-      # (-eo pipefail). I also realized that if an error happens inside the expression that sets tha value
-      # for the "::set-output" command, it does not cause the step to fail (this should probably be a bug).
+      # to extract the number of episodes present in file. We use an environment file to be able to keep
+      # track of the resulting value across steps.
+      # NOTE: We force "bash" shell to make sure any errors propagate correctly when piping commands.
       - name: Get number of new episodes
         id: new_episodes
         shell: bash
         run: |
           NUM_NEW_EPISODES=$(python3 parse_rss.py ${{env.OUTPUT_FILE}} | jq ". | length")
-          echo ::set-output name=EPISODES::$NUM_NEW_EPISODES
+          echo "EPISODES=${NUM_NEW_EPISODES}" >> $GITHUB_OUTPUT
 
       # Uses parse_rss.py to read the xml file and transform it into a json file, which is then fed to "jq"
-      # NOTE: We force "bash" shell to make sure any errors propagate correctly when piping commands
-      # (-eo pipefail). I also realized that if an error happens inside the expression that sets tha value
-      # for the "::set-output" command, it does not cause the step to fail (this should probably be a bug).
+      # We use an environment file to be able to keep track of the resulting value across steps.
+      # NOTE: We force "bash" shell to make sure any errors propagate correctly when piping commands.
       - name: Get number of existing episodes
         id: existing_episodes
         shell: bash
         run: |
           NUM_EXISTING_EPISODES=$(python3 parse_rss.py ${{env.PRODUCTION_RSS_XML}}  | jq ". | length")
-          echo ::set-output name=EPISODES::$NUM_EXISTING_EPISODES
+          echo "EPISODES=${NUM_EXISTING_EPISODES}" >> $GITHUB_OUTPUT
 
       # Sends a Telegram message if new episodes are detected
       - name: New episodes detected alert
