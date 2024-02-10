@@ -15,7 +15,7 @@ EpisodeInfo = collections.namedtuple("EpisodeInfo", ["index", "title", "url"])
 episode_queue = queue.Queue()
 
 
-def get_page_from_url(url, retries=5):
+def get_page_from_url(url, retries=10):
     """
     This function simply uses "requests" to get the contents of a given url,
     it will try "retries" times before returning None.
@@ -27,7 +27,14 @@ def get_page_from_url(url, retries=5):
             page.raise_for_status()
         except requests.exceptions.ConnectionError as e:
             retries -= 1
-            print(f"ConnectionError occurred, retries left = {retries}")
+            print(f"ConnectionError ({e.response.status_code}) occurred, retries left = {retries}")
+        except requests.exceptions.HTTPError as e:
+            retries -= 1
+            print(f"HTTPError ({e.response.status_code}) occurred, retries left = {retries}")
+            print("Response header:")
+            print(page.headers)
+            if e.response.status_code == 429:
+                time.sleep(1)
         else:
             # No exception occurred, return page object
             return page
