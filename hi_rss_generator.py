@@ -7,6 +7,7 @@ import requests
 import time
 from bs4 import BeautifulSoup
 from podgen import Podcast, Episode, Media, Person, Category
+from requests.adapters import HTTPAdapter, Retry
 
 # Declare a namedtuple to store episode metadata during initial scrape
 EpisodeInfo = collections.namedtuple("EpisodeInfo", ["index", "title", "url"])
@@ -14,30 +15,37 @@ EpisodeInfo = collections.namedtuple("EpisodeInfo", ["index", "title", "url"])
 # Define a queue that will hold the episodes to iterate through
 episode_queue = queue.Queue()
 
+# Define a retry strategy to use for http requests
+retry_strategy = Retry(
+    total=10,  # Maximum number of retries
+    backoff_factor=2,  # Exponential backoff factor (e.g., 2 means 1, 2, 4, 8 seconds, ...)
+    status_forcelist=[429, 500, 502, 503, 504],  # HTTP status codes to retry on
+)
 
-def get_page_from_url(url, retries=10):
+# Create an HTTP adapter with the retry strategy defined above
+http_adapter = HTTPAdapter(max_retries=retry_strategy)
+
+# Create a new session object and mount the http_adapter
+request_session = requests.Session()
+request_session.mount('http://', http_adapter)
+request_session.mount('https://', http_adapter)
+
+def get_page_from_url(url):
     """
     This function simply uses "requests" to get the contents of a given url,
-    it will try "retries" times before returning None.
+    using the request_session with the predefined retry_strategy; in case of
+    error it returns None.
     """
 
-    while retries:
-        try:
-            page = requests.get(url, headers={"User-agent": "your bot 0.1"})
-            page.raise_for_status()
-        except requests.exceptions.ConnectionError as e:
-            retries -= 1
-            print(f"ConnectionError ({e.response.status_code}) occurred, retries left = {retries}")
-        except requests.exceptions.HTTPError as e:
-            retries -= 1
-            print(f"HTTPError ({e.response.status_code}) occurred, retries left = {retries}")
-            print("Response header:")
-            print(page.headers)
-            if e.response.status_code == 429:
-                time.sleep(1)
-        else:
-            # No exception occurred, return page object
-            return page
+    try:
+        page = request_session.get(url, headers={"User-agent": "your bot 0.1"})
+        page.raise_for_status()
+    except Exception as e:
+        print(f"Error occured while getting url: {url}:")
+        print(e)
+    else:
+        # No exception occurred, return page object
+        return page
 
     return None
 
