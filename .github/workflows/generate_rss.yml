@@ -78,7 +78,7 @@ jobs:
               -l ${{env.LAST_EPISODE_INDEX}}"
 
       - name: Archive generated RSS feed
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: rss-feed
           path: ${{env.OUTPUT_FILE}}
